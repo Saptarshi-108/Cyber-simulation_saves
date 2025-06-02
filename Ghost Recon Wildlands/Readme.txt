@@ -11,9 +11,9 @@ rifles - r5rgp, m4a1,acr,bren,psg,sr105,ak12.
 
 scopes - compm4,exsp3,exsp3+g33,microt1,russianreddot.
 
-almost 43% map completed.
+almost 57% map completed.
 
-date - 25th May 2025.
+date - 2nd June 2025.
 lang_packs - en,rus
 narco road dlc,ghost dlc
 
