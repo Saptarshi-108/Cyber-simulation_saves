@@ -1,0 +1,34 @@
+{
+	"Avatar":
+	{
+		"filename": "avatar.png",
+		"original": "https://assets.modcdn.io/images/placeholder/avatar.png",
+		"thumb_100x100": "https://assets.modcdn.io/images/placeholder/avatar_100x100.png",
+		"thumb_50x50": "https://assets.modcdn.io/images/placeholder/avatar_50x50.png"
+	},
+	"DeferredUnsubscribes": [],
+	"OAuth":
+	{
+		"expiry": 1739116334,
+		"status": 0,
+		"token": "eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiUlNBLU9BRVAiLCJjdHkiOiJKV1QiLCJ6aXAiOiJERUYiLCJ4NXQiOiJzR0pJLUJhTmhlTDctUjBMejJFdlhhNlQweGs9In0.NNvER6vKJK7IVbxxbAk65mKd-SC_VI0vhyi_wZQahvRnZYnQ1dOd-dyjW2z5kjPdNqOqnx8oveTlj3CYXipfBk_XepbGvOKgvQ_TFh5vILV8_xMjBy9I-bdDjhykjjS53KxNAlkXmx6ghhD8j0c0NcK9Jy_lvhSVgbQphwpEdAk7uZnA7CCDGZAmx7RwBt2PqNiJNrMp050w-LM9H10e__Pgx-6HFlbRRObR-5KCbuWzmpo3ahtQpRp6DOgFqXNxcOULqyw8QPfsIbDsyHX0_F3X_7GYwlHCz8uYzNK0yaeYLFsyFWRkEOGKjar8FazHCbHRBF6LPn91tiREpZKe6g.z6K80ygI56Nz3WI0eUBMbw.1xZyXVBdwnN6ioT2CsSWkH7Cu2arre5LhQwolL6-Z2ODD6bNcC104yQLWYGzc63tw3G9OAwZmCRGInyjmxbDPJYrhhQJNG0q23vuTO019rjwzFOWoPCHam2AU_qrIsxtbiwD7DCZTau4cDX22NASxIyii7doBW73atYvOlLDEMmR6i6y4edgyeGbvWpeQIy_19WhzvOFcuu3RjgqcgioKpUGXZm2gqO_4_Gmj6lghKdyVWNFwUpp0zw1kHzpHrRTrbMXH8uX6YR_S6WHlEOE2WSxrNbKtF9eExWOTRHFhLEcBayGW11JwPIt09FNzyukb8AUUkcO4_1Nj78QgawWZ438Ah2LfmkI1TGp6EWXyugjwnNX19eG5gpOZ0osad9mu0DhYe3eANrqvbWIa7-BC_zWQSdy4MeyTtBPwY107IjoIvunpUJYCdf-0bp8UgMmBoO8uH_ZrGcQ4cdStH9bxQt20-m7qlLFUubNT4jFEN3JzS8RLAS2IlUb0tAp-PiXiCzyln9cIKTeEk_ugg-ddf2HD_pmucPFd4o_oKKTv8R2VZ6T42J8NHUugG1XCRK1-tEy0NEmkYAyYv4RXc8XBZnQSOM2_87vmcBYtywsR5GD_v1VELgRVKGP1Hm2joMRZyLVf64XgNrwUxAK8SaI9vcD3DAFngtQFHy0nlaGRIbpjR3yNfRCpZfLhzWehqiFxnH6nvhikDn0FinegQkaNYUKte8zybYwToYyDa6GFYuA3ruoIXSx8K-GW7jKYK3pxQda1PlbG2BjwS9myEgl6l3UtY6Tk8g_x8sKdOQMLDy_jcr_fbYzcehPk6_BFFFgXZkJ-Z-4cuuKZ2gT2TGvMuLs1hL2LlSV1ZZl404q1qyYuNYAJEuLrn-k5Tdp0eHFSWfLQjUiPCTTxOHb_hsjqx9KaUy9A3v3czZ26VTBoxs06z1YUyaS2hrvkq_C0TPpdXfOYpNlDWNydMFubPwy12JSgbR1nIcAAnGzWOSSBVxKkQj9a4sZv-TUnTmF1n2qEQ8F5hCS7ZzbSYjzTDjfVJuVJ7AoUUQYJvQxZONb1ko.1KMvFJwpkghg0e_Kmq6ecg"
+	},
+	"Profile":
+	{
+		"avatar":
+		{
+			"filename": "avatar.png",
+			"original": "https://assets.modcdn.io/images/placeholder/avatar.png",
+			"thumb_100x100": "https://assets.modcdn.io/images/placeholder/avatar_100x100.png",
+			"thumb_50x50": "https://assets.modcdn.io/images/placeholder/avatar_50x50.png"
+		},
+		"date_online": 1707422963,
+		"display_name_portal": "",
+		"id": 29851908,
+		"profile_url": "https://mod.io/u/illuminati1168",
+		"username": "illuminati1168"
+	},
+	"RootLocalStoragePath": "D:/Games/Ready or Not/ReadyOrNot/Content/Paks/mod.io",
+	"subscriptions": [ 2406122, 2406224, 2406982, 2406983, 2411352, 2414768, 2414824, 2645804, 3563150, 3589220 ],
+	"version": 1
+}
