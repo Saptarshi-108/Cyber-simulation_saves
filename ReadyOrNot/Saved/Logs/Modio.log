@@ -1,0 +1,16 @@
+[02:02:54:532ms][Info][Core] Initializing mod.io services
+[02:02:54:533ms][Info][File] Initialized File Service
+[02:02:54:571ms][Trace][File] Begin read of 50 bytes from C:\Users\Saptarshi\AppData\Local\mod.io\3791\S-1-5-21-2808700807-3129566155-2869058664-1001\..\..\globalsettings.json
+[02:02:54:571ms][Trace][File] Finish read from C:\Users\Saptarshi\AppData\Local\mod.io\3791\S-1-5-21-2808700807-3129566155-2869058664-1001\..\..\globalsettings.json
+[02:02:54:571ms][Info][File] Overriding RootLocalStoragePath to C:\Users\Public\mod.io\
+[02:02:54:576ms][Info][Http] Initialized Http Service
+[02:02:54:576ms][Trace][User] Loading user data
+[02:02:54:961ms][Trace][File] Begin read of 2457 bytes from C:\Users\Saptarshi\AppData\Local\mod.io\3791\S-1-5-21-2808700807-3129566155-2869058664-1001\user.json
+[02:02:54:961ms][Trace][File] Finish read from C:\Users\Saptarshi\AppData\Local\mod.io\3791\S-1-5-21-2808700807-3129566155-2869058664-1001\user.json
+[02:02:54:961ms][Trace][User] User Data Loaded
+[02:02:54:961ms][Info][User] Initialized User Data service
+[02:02:54:961ms][Trace][ModManagement] Loading mod collection from storage
+[02:02:55:80ms][Trace][File] Begin read of 68094 bytes from C:\Users\Public\mod.io\3791\metadata\state.json
+[02:02:55:80ms][Trace][File] Finish read from C:\Users\Public\mod.io\3791\metadata\state.json
+[02:02:55:84ms][Trace][ModManagement] Mod collection loaded
+[02:02:55:345ms][Info][Core] mod.io service initialization complete
