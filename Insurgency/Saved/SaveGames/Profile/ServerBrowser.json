@@ -1,0 +1,19 @@
+{
+	"bSearchCoop": true,
+	"bSearchVersus": true,
+	"bSearchArcade": true,
+	"serverNameSearch": "",
+	"minPlayers": 0,
+	"maxPlayers": 32,
+	"bShowFull": true,
+	"showPasswordedServers": "Exclude",
+	"bDefaultRules": true,
+	"bCustomRules": true,
+	"bMutated": true,
+	"bModded": false,
+	"bAutoJoinModded": false,
+	"xPGain": "NoPreference",
+	"friendlyFire": "NoPreference",
+	"killFeed": "NoPreference",
+	"lightingSelection": "DayAndNight"
+}

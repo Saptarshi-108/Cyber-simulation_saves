@@ -1,0 +1,60 @@
+{
+	"cosmeticsProfileVersion": 1,
+	"currentSecurityCosmeticGender": "Male",
+	"currentSecurityFemaleCosmeticState":
+	{
+		"faction": "Security",
+		"name": "Security Female Default",
+		"cosmeticIds": [ 160000, 2, 71, 10530, 11501, 203100, 253100, 256100, 351501, 401000, 103000 ]
+	},
+	"currentSecurityCosmeticState":
+	{
+		"faction": "Security",
+		"name": "IAF_MARCOS",
+		"cosmeticIds": [ 11522, 107000, 165000, 155000, 72, 458000, 453000, 1, 233531, 303507, 255100, 350104, 12505, 10507, 432506, 259100, 400000 ]
+	},
+	"currentInsurgentsCosmeticState":
+	{
+		"faction": "Insurgents",
+		"name": "Insurgents Default",
+		"cosmeticIds": [ 501000, 960000, 955000, 902232, 73, 50, 32, 664102, 708314, 750503, 560118, 15104, 16301, 17300 ]
+	},
+	"storedCosmeticStates":
+	{
+		"IAF_MARCOS":
+		{
+			"faction": "Security",
+			"name": "IAF_MARCOS",
+			"cosmeticIds": [ 11522, 107000, 165000, 155000, 72, 458000, 453000, 1, 233531, 303507, 255100, 350104, 12505, 10507, 432506, 259100, 400000 ]
+		}
+	},
+	"scoreboardBadge": 0,
+	"currentSecurityShoppingCart":
+	{
+		"faction": "None",
+		"name": "",
+		"cosmeticIds": []
+	},
+	"currentInsurgentsShoppingCart":
+	{
+		"faction": "None",
+		"name": "",
+		"cosmeticIds": []
+	},
+	"entitledCosmetics": [],
+	"previewedCosmeticItems": [],
+	"unviewedItems": [],
+	"storedCosmeticChoices":
+	{
+		"CompoundSecurity": "US MARINES",
+		"MinistrySecurity": "IAF_MARCOS",
+		"BabInsurgents": "Insurgents Default",
+		"TownSecurity": "IAF_MARCOS",
+		"BuhrizInsurgents": "Insurgents Default",
+		"PowerPlantSecurity": "IAF_MARCOS",
+		"MountainSecurity": "IAF_MARCOS",
+		"PrecinctSecurity": "IAF_MARCOS",
+		"FarmhouseSecurity": "IAF_MARCOS",
+		"SinjarSecurity": "IAF_MARCOS"
+	}
+}

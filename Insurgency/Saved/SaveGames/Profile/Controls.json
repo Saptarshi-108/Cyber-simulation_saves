@@ -1,0 +1,1665 @@
+{
+	"version": 16,
+	"mouseSensitivity": 1.5299999713897705,
+	"gamepadXSensitivity": 1,
+	"gamepadYSensitivity": 1,
+	"bInvertedYAxis": false,
+	"bInvertYAxisMouse": false,
+	"bFreeaimDeadzone": false,
+	"freeaimDeadzoneScale": 1,
+	"freeaimDeadzoneMinimumSensitivityScale": 0,
+	"bManualBipod": true,
+	"bRadialToggle": true,
+	"bAutoLean": false,
+	"mouseSensitivityModifiers":
+	{
+		"bFOVSensitivityScaling": true,
+		"aimingSensitivityScale": 1,
+		"bUseScopeSensitivityScale": true,
+		"scopeSensitivityScale": 1,
+		"bScopeSensitivityScaleUsesWorldFOV": false,
+		"focusSensitivityScale": 0.60000002384185791,
+		"opticSensitivityScale":
+		{
+			"OneX": 1,
+			"OneHalfX": 1,
+			"TwoX": 1,
+			"TwoHalfX": 1,
+			"ThreeX": 1,
+			"FourX": 1,
+			"SixX": 1,
+			"SevenX": 1
+		}
+	},
+	"gamepadSensitivityModifiers":
+	{
+		"bFOVSensitivityScaling": true,
+		"aimingSensitivityScale": 0.30000001192092896,
+		"bUseScopeSensitivityScale": true,
+		"scopeSensitivityScale": 0.60000002384185791,
+		"bScopeSensitivityScaleUsesWorldFOV": false,
+		"focusSensitivityScale": 0.60000002384185791,
+		"opticSensitivityScale":
+		{
+			"OneX": 1,
+			"OneHalfX": 1,
+			"TwoX": 1,
+			"TwoHalfX": 1,
+			"ThreeX": 1,
+			"FourX": 1,
+			"SixX": 1,
+			"SevenX": 1
+		}
+	},
+	"gamepadAccelerationEnabled": false,
+	"gamepadAccelerationMultiplier": 5,
+	"gamepadAccelerationTimeThreshold": 0.10000000149011612,
+	"gamepadAccelerationTimeToReachMax": 0.5,
+	"gamepadDecelerationTimeToStop": 0,
+	"gamepadDampeningStrength": 1,
+	"gamepadDampeningSize": 1,
+	"gamepadDampeningEaseIn": 0.80000001192092896,
+	"forceFeedbackIntensity": 1,
+	"actionMappings": [
+		{
+			"actionName": "Jump",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "Fire",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftMouseButton"
+		},
+		{
+			"actionName": "Fire",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightTrigger"
+		},
+		{
+			"actionName": "Crouch",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "ToggleProne",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftControl"
+		},
+		{
+			"actionName": "Sprint",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftShift"
+		},
+		{
+			"actionName": "Sights",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftTrigger"
+		},
+		{
+			"actionName": "ToggleSights",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "Reload",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "R"
+		},
+		{
+			"actionName": "CycleFiremode",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "X"
+		},
+		{
+			"actionName": "SelectInventoryPrimary",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "One"
+		},
+		{
+			"actionName": "SelectInventorySecondary",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Two"
+		},
+		{
+			"actionName": "SelectInventoryExplosive",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Three"
+		},
+		{
+			"actionName": "SelectInventoryFireSupport",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Four"
+		},
+		{
+			"actionName": "SelectInventoryMelee",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Five"
+		},
+		{
+			"actionName": "SelectInventoryMiscellaneous",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Six"
+		},
+		{
+			"actionName": "SpectateNextPlayer",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftMouseButton"
+		},
+		{
+			"actionName": "SpectateToggleXRay",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "X"
+		},
+		{
+			"actionName": "SpectatePreviousPlayer",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "Scoreboard",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Tab"
+		},
+		{
+			"actionName": "ToggleMenu",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Escape"
+		},
+		{
+			"actionName": "Reload",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Left"
+		},
+		{
+			"actionName": "ToggleMenu",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_Special_Right"
+		},
+		{
+			"actionName": "SpectateChangeCamera",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "SpaceBar"
+		},
+		{
+			"actionName": "SpectatePlayer1",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "One"
+		},
+		{
+			"actionName": "SpectatePlayer2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Two"
+		},
+		{
+			"actionName": "SpectatePlayer3",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Three"
+		},
+		{
+			"actionName": "SpectatePlayer4",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Four"
+		},
+		{
+			"actionName": "SpectatePlayer5",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Five"
+		},
+		{
+			"actionName": "SpectatePlayer6",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Six"
+		},
+		{
+			"actionName": "SpectatePlayer7",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Seven"
+		},
+		{
+			"actionName": "SpectatePlayer8",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Eight"
+		},
+		{
+			"actionName": "SpectatePlayer9",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Nine"
+		},
+		{
+			"actionName": "SpectatePlayer0",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Zero"
+		},
+		{
+			"actionName": "SpectateTimeDilationIncrease",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Home"
+		},
+		{
+			"actionName": "SpectateTimeDilationDecrease",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "End"
+		},
+		{
+			"actionName": "ToggleSprint",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftThumbstick"
+		},
+		{
+			"actionName": "Stance",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Right"
+		},
+		{
+			"actionName": "LeanLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Q"
+		},
+		{
+			"actionName": "LeanRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "E"
+		},
+		{
+			"actionName": "OpenChat",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Y"
+		},
+		{
+			"actionName": "OpenTeamChat",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "U"
+		},
+		{
+			"actionName": "VoiceRadio",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "V"
+		},
+		{
+			"actionName": "Walk",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "ToggleWalk",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "CapsLock"
+		},
+		{
+			"actionName": "Focus",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftShift"
+		},
+		{
+			"actionName": "SelectInventoryNext",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "MouseScrollDown"
+		},
+		{
+			"actionName": "SelectInventoryPrevious",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "MouseScrollUp"
+		},
+		{
+			"actionName": "Use",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F"
+		},
+		{
+			"actionName": "Vehicle_Handbrake",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "SpaceBar"
+		},
+		{
+			"actionName": "Vehicle_Handbrake",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "Vehicle_Fire",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftMouseButton"
+		},
+		{
+			"actionName": "Vehicle_Fire",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightTrigger"
+		},
+		{
+			"actionName": "Use",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "ToggleLoadout",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "M"
+		},
+		{
+			"actionName": "ToggleTeamSelect",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "N"
+		},
+		{
+			"actionName": "FireSupportMenu",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "J"
+		},
+		{
+			"actionName": "ToggleAdminMenu",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Subtract"
+		},
+		{
+			"actionName": "InteractGearAccessory",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "B"
+		},
+		{
+			"actionName": "Possess",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F"
+		},
+		{
+			"actionName": "InteractUnderbarrelUpgrade",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "G"
+		},
+		{
+			"actionName": "InteractSiderailUpgrade",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "H"
+		},
+		{
+			"actionName": "Map",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Comma"
+		},
+		{
+			"actionName": "ToggleReplayUI",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F"
+		},
+		{
+			"actionName": "MenuBack",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Escape"
+		},
+		{
+			"actionName": "MenuBack",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Right"
+		},
+		{
+			"actionName": "MenuTabRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightShoulder"
+		},
+		{
+			"actionName": "MenuTabLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftShoulder"
+		},
+		{
+			"actionName": "MenuTabRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "E"
+		},
+		{
+			"actionName": "MenuTabLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Q"
+		},
+		{
+			"actionName": "MenuPagePrevious",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "A"
+		},
+		{
+			"actionName": "MenuPageNext",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "D"
+		},
+		{
+			"actionName": "MenuPagePrevious",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftTrigger"
+		},
+		{
+			"actionName": "MenuPageNext",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightTrigger"
+		},
+		{
+			"actionName": "Vehicle_Lights",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "H"
+		},
+		{
+			"actionName": "MenuAccept",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Enter"
+		},
+		{
+			"actionName": "MenuAccept",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "MenuDialogCenter",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Delete"
+		},
+		{
+			"actionName": "MenuDialogCenter",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Left"
+		},
+		{
+			"actionName": "MenuNavigateDown",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Down"
+		},
+		{
+			"actionName": "MenuNavigateDown",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Down"
+		},
+		{
+			"actionName": "MenuNavigateDown",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Down"
+		},
+		{
+			"actionName": "MenuNavigateRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Right"
+		},
+		{
+			"actionName": "MenuNavigateRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Right"
+		},
+		{
+			"actionName": "MenuNavigateRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Right"
+		},
+		{
+			"actionName": "MenuNavigateLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Left"
+		},
+		{
+			"actionName": "MenuNavigateLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Left"
+		},
+		{
+			"actionName": "MenuNavigateLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Left"
+		},
+		{
+			"actionName": "MenuNavigateUp",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Up"
+		},
+		{
+			"actionName": "MenuNavigateUp",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Up"
+		},
+		{
+			"actionName": "MenuNavigateUp",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Up"
+		},
+		{
+			"actionName": "InventorySelect",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightShoulder"
+		},
+		{
+			"actionName": "DPadUp",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_DPad_Up"
+		},
+		{
+			"actionName": "DPadDown",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_DPad_Down"
+		},
+		{
+			"actionName": "DPadLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_DPad_Left"
+		},
+		{
+			"actionName": "DPadRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_DPad_Right"
+		},
+		{
+			"actionName": "Vehicle_Lights",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftThumbstick"
+		},
+		{
+			"actionName": "CommsMenu",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Tilde"
+		},
+		{
+			"actionName": "MenuCornerButton1",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F1"
+		},
+		{
+			"actionName": "MenuCornerButton2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F2"
+		},
+		{
+			"actionName": "ToggleScoreboard",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_Special_Left"
+		},
+		{
+			"actionName": "CycleFiremode",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_DPad_Up"
+		},
+		{
+			"actionName": "SpectateNextPlayer",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightShoulder"
+		},
+		{
+			"actionName": "SpectatePreviousPlayer",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftShoulder"
+		},
+		{
+			"actionName": "SpectateChangeCamera",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "Possess",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "MenuCornerButton1",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Left"
+		},
+		{
+			"actionName": "MenuCornerButton2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "ToggleReplayUI",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftThumbstick"
+		},
+		{
+			"actionName": "TogglePauseReplay",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "MenuAlt1",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Left"
+		},
+		{
+			"actionName": "MenuAlt2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "MenuAlt1",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F1"
+		},
+		{
+			"actionName": "MenuAlt2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F2"
+		},
+		{
+			"actionName": "CommsMenu",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftShoulder"
+		},
+		{
+			"actionName": "ToggleLeanLeft",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftThumbstick"
+		},
+		{
+			"actionName": "ToggleLeanRight",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightThumbstick"
+		},
+		{
+			"actionName": "Focus",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_RightShoulder"
+		},
+		{
+			"actionName": "SpotEnemy",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftShoulder"
+		},
+		{
+			"actionName": "ToggleLessons",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "L"
+		},
+		{
+			"actionName": "EjectToSpectator",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftMouseButton"
+		},
+		{
+			"actionName": "EjectToSpectator",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "VoteChoice0",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F1"
+		},
+		{
+			"actionName": "VoteChoice1",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F2"
+		},
+		{
+			"actionName": "VoteChoice2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F3"
+		},
+		{
+			"actionName": "VoteChoice3",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F4"
+		},
+		{
+			"actionName": "VoteChoice4",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F5"
+		},
+		{
+			"actionName": "VoteChoice5",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F6"
+		},
+		{
+			"actionName": "Pause",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "P"
+		},
+		{
+			"actionName": "Vault",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "Slide",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SpectateHUD",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "H"
+		},
+		{
+			"actionName": "SpectateHandheld",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "P"
+		},
+		{
+			"actionName": "SpectateSmooth",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "K"
+		},
+		{
+			"actionName": "MenuLink",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F"
+		},
+		{
+			"actionName": "JumpVault",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "SpaceBar"
+		},
+		{
+			"actionName": "JumpVault",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "CrouchSlide",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SpectateToggleXRay",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Left"
+		},
+		{
+			"actionName": "SpectateSmooth",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Right"
+		},
+		{
+			"actionName": "SpectateHUD",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "MenuAcceptAlt",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "F1"
+		},
+		{
+			"actionName": "MenuAcceptAlt",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_Special_Right"
+		},
+		{
+			"actionName": "MenuAcceptAlt2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Enter"
+		},
+		{
+			"actionName": "MenuAcceptAlt2",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Bottom"
+		},
+		{
+			"actionName": "MenuPurchase",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "ShowHints",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_Special_Left"
+		},
+		{
+			"actionName": "MenuLink",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "ToggleLessons",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_Special_Right"
+		},
+		{
+			"actionName": "MoveForwardPad",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Up"
+		},
+		{
+			"actionName": "MoveBackPad",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Down"
+		},
+		{
+			"actionName": "MoveRightPad",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Right"
+		},
+		{
+			"actionName": "MoveLeftPad",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftStick_Left"
+		},
+		{
+			"actionName": "LeftTrigger",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_LeftTrigger"
+		},
+		{
+			"actionName": "MeleeCycleOptic",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "LeftAlt"
+		},
+		{
+			"actionName": "CycleOptic",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "MenuKitResetLoadout",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "R"
+		},
+		{
+			"actionName": "MenuKitResetLoadout",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Left"
+		},
+		{
+			"actionName": "MenuKitEmptyLoadout",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "BackSpace"
+		},
+		{
+			"actionName": "MenuKitEmptyLoadout",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_FaceButton_Top"
+		},
+		{
+			"actionName": "MenuEnter",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Enter"
+		},
+		{
+			"actionName": "MenuEnter",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "Gamepad_Special_Right"
+		},
+		{
+			"actionName": "SelectSmokeGrenade",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SelectFlashGrenade",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SelectFragGrenade",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SelectIncendiaryGrenade",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SelectRemoteExplosive",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SelectRocketLauncher",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "SelectVehicleMine",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "InteractGearAccessoryCycleOptic",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommEnemySpotted",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommNeedSmoke",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommNegative",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommIntimidate",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommEnemyDown",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommNeedPickup",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommAffirmative",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommNeedBackup",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommRequestObserver",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "CommSuggestFireSupport",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "None"
+		},
+		{
+			"actionName": "ToggleCrouchSlide",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "C"
+		},
+		{
+			"actionName": "Sights",
+			"bShift": false,
+			"bCtrl": false,
+			"bAlt": false,
+			"bCmd": false,
+			"key": "RightMouseButton"
+		}
+	],
+	"axisMappings": [
+		{
+			"axisName": "MoveForward",
+			"scale": 1,
+			"key": "W"
+		},
+		{
+			"axisName": "MoveForward",
+			"scale": -1,
+			"key": "S"
+		},
+		{
+			"axisName": "MoveForward",
+			"scale": 1,
+			"key": "Gamepad_LeftY"
+		},
+		{
+			"axisName": "MoveRight",
+			"scale": -1,
+			"key": "A"
+		},
+		{
+			"axisName": "MoveRight",
+			"scale": 1,
+			"key": "D"
+		},
+		{
+			"axisName": "MoveRight",
+			"scale": 1,
+			"key": "Gamepad_LeftX"
+		},
+		{
+			"axisName": "ControllerX",
+			"scale": 1,
+			"key": "Gamepad_RightX"
+		},
+		{
+			"axisName": "MouseX",
+			"scale": 1,
+			"key": "MouseX"
+		},
+		{
+			"axisName": "ControllerY",
+			"scale": 1,
+			"key": "Gamepad_RightY"
+		},
+		{
+			"axisName": "MouseY",
+			"scale": -1,
+			"key": "MouseY"
+		},
+		{
+			"axisName": "Vehicle_Throttle",
+			"scale": 1,
+			"key": "W"
+		},
+		{
+			"axisName": "Vehicle_Steer",
+			"scale": 1,
+			"key": "D"
+		},
+		{
+			"axisName": "Vehicle_Steer",
+			"scale": -1,
+			"key": "A"
+		},
+		{
+			"axisName": "Vehicle_Throttle",
+			"scale": -1,
+			"key": "S"
+		},
+		{
+			"axisName": "Vehicle_Throttle",
+			"scale": 1,
+			"key": "Gamepad_RightTrigger"
+		},
+		{
+			"axisName": "Vehicle_Steer",
+			"scale": 1,
+			"key": "Gamepad_LeftX"
+		},
+		{
+			"axisName": "Vehicle_Throttle",
+			"scale": -1,
+			"key": "Gamepad_LeftTrigger"
+		},
+		{
+			"axisName": "SpectateZoom",
+			"scale": 1,
+			"key": "None"
+		},
+		{
+			"axisName": "SpectateSpeed",
+			"scale": 1,
+			"key": "MouseWheelAxis"
+		},
+		{
+			"axisName": "SpectateZoom",
+			"scale": -1,
+			"key": "Z"
+		},
+		{
+			"axisName": "MoveUp",
+			"scale": 1,
+			"key": "E"
+		},
+		{
+			"axisName": "MoveUp",
+			"scale": -1,
+			"key": "Q"
+		},
+		{
+			"axisName": "MoveUp",
+			"scale": -1,
+			"key": "Gamepad_LeftTrigger"
+		},
+		{
+			"axisName": "MoveUp",
+			"scale": 1,
+			"key": "Gamepad_RightTrigger"
+		},
+		{
+			"axisName": "SpectateSpeed",
+			"scale": 1,
+			"key": "Gamepad_DPad_Up"
+		},
+		{
+			"axisName": "SpectateSpeed",
+			"scale": -1,
+			"key": "Gamepad_DPad_Down"
+		},
+		{
+			"axisName": "SpectateRoll",
+			"scale": 1,
+			"key": "Gamepad_DPad_Right"
+		},
+		{
+			"axisName": "SpectateRoll",
+			"scale": -1,
+			"key": "Gamepad_DPad_Left"
+		}
+	],
+	"gamepadAimSensitivityCurve": "DualZone",
+	"bVaultKeyBound": false
+}

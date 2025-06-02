@@ -1,0 +1,2899 @@
+{
+	"firemodePreferences":
+	{
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AK74.BP_Firearm_AK74_C": "Automatic",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP5A2.BP_Firearm_MP5A2_C": "Automatic",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C": "Automatic",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C": "Single",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AUG.BP_Firearm_AUG_C": "Automatic",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_MK14.BP_Firearm_MK14_C": "Single",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A4.BP_Firearm_M16A4_C": "Burst",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_MK17.BP_Firearm_MK17_C": "Automatic",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_G3.BP_Firearm_G3_C": "Single",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_HBadger.BP_Firearm_HBadger_C": "Single",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A2.BP_Firearm_M16A2_C": "Burst",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKAlpha.BP_Firearm_AKAlpha_C": "Automatic",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP5A5.BP_Firearm_MP5A5_C": "Burst",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_Fal.BP_Firearm_Fal_C": "Single",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_Tavor.BP_Firearm_Tavor_C": "Automatic",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_QBZ03.BP_Firearm_QBZ03_C": "Single"
+	},
+	"playerClasses":
+	{
+		"/Game/Game/Factions/PlayerClasses/Security/Versus/PlayerClass_Security_Rifleman.PlayerClass_Security_Rifleman":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AUG.BP_Firearm_AUG_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AUG.BP_Firearm_AUG_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Rifleman_AllGuns.PlayerClass_Insurgent_Coop_Rifleman_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A4.BP_Firearm_M16A4_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Drum.BP_UG_AR15Drum_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Miscellaneous/BP_UG_FlatTop.BP_UG_FlatTop_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Istighazi",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AK74.BP_Firearm_AK74_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x.BP_UG_PKAS2x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Ext.BP_UG_AK545Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Fidayeen",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK762Ext.BP_UG_AK762Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra2x.BP_UG_Kobra2x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Abdul_Firhad",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser.BP_UG_INSLongarmLaser_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK762Ext.BP_UG_AK762Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x.BP_UG_PKAS2x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Kasab",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A4.BP_Firearm_M16A4_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Drum.BP_UG_AR15Drum_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Miscellaneous/BP_UG_FlatTop.BP_UG_FlatTop_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 3,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Breacher_AllGuns.PlayerClass_Insurgent_Coop_Breacher_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/Shotgun/BP_Firearm_M870.BP_Firearm_M870_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_AmmoSlugs.BP_UG_AmmoSlugs_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small_Rail.BP_UG_Foregrip_Recoil_Small_Rail_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_Molotov.BP_Grenade_Molotov_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Jabaaz",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/Shotgun/BP_Firearm_M870.BP_Firearm_M870_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_AmmoSlugs.BP_UG_AmmoSlugs_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small_Rail.BP_UG_Foregrip_Recoil_Small_Rail_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_Molotov.BP_Grenade_Molotov_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Breach_baby",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_UZI.BP_Firearm_UZI_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small.BP_UG_Foregrip_Recoil_Small_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_UziDrum.BP_UG_UziDrum_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser_RAS.BP_UG_INSLongarmLaser_RAS_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Marksman_AllGuns.PlayerClass_Insurgent_Coop_Marksman_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SVD.BP_Firearm_SVD_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS762Suppressor.BP_UG_INS762Suppressor_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Fahad_sniper",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/SniperRifle/BP_Firearm_M24.BP_Firearm_M24_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC762Suppressor.BP_UG_SEC762Suppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x_Low.BP_UG_M3A7x_Low_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Chamber/BP_UG_GreasedBolt.BP_UG_GreasedBolt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Jihadi Fahad",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SVD.BP_Firearm_SVD_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS762Suppressor.BP_UG_INS762Suppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Baradar Abdul",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SVD.BP_Firearm_SVD_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Hunting7x.BP_UG_Hunting7x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "M1 pinger",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_M1Garand.BP_Firearm_M1Garand_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M9Ext.BP_UG_M9Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS9mmSuppressor.BP_UG_INS9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Advisor_AllGuns.PlayerClass_Insurgent_Coop_Advisor_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKAlpha.BP_Firearm_AKAlpha_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSAKSuppressor.BP_UG_INSAKSuppressor_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Silencio",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKS74u.BP_Firearm_AKS74u_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw_Rail.BP_UG_Foregrip_QuickDraw_Rail_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSAK74uSuppressor.BP_UG_INSAK74uSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser.BP_UG_INSLongarmLaser_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Ext.BP_UG_AK545Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "modern",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKAlpha.BP_Firearm_AKAlpha_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSAKSuppressor.BP_UG_INSAKSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Demolitions_AllGuns.PlayerClass_Insurgent_Coop_Demolitions_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_G3.BP_Firearm_G3_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider308.BP_UG_SECRifleFlashHider308_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_G3Ext.BP_UG_G3Ext_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Explosive/BP_Explosive_AT4.BP_Explosive_AT4_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_G3.BP_Firearm_G3_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider308.BP_UG_SECRifleFlashHider308_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_G3Ext.BP_UG_G3Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Explosive/BP_Explosive_AT4.BP_Explosive_AT4_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Gunner_AllGuns.PlayerClass_Insurgent_Coop_Gunner_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_GalilSAR.BP_Firearm_GalilSAR_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_GalilDrum.BP_UG_GalilDrum_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_MRO1x.BP_UG_MRO1x_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Arbaaz",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_GalilSAR.BP_Firearm_GalilSAR_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_MRO1x.BP_UG_MRO1x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Mujahid",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_GalilSAR.BP_Firearm_GalilSAR_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_GalilDrum.BP_UG_GalilDrum_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_MRO1x.BP_UG_MRO1x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Commander_AllGuns.PlayerClass_Insurgent_Coop_Commander_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot1x.BP_UG_RedDot1x_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser.BP_UG_INSLongarmLaser_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleCompAKM.BP_UG_INSRifleCompAKM_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M9Ext.BP_UG_M9Ext_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Ustaad",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot1x.BP_UG_RedDot1x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser.BP_UG_INSLongarmLaser_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleCompAKM.BP_UG_INSRifleCompAKM_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M9Ext.BP_UG_M9Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Rifleman_AllGuns.PlayerClass_Security_Coop_Rifleman_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AK74.BP_Firearm_AK74_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Ext.BP_UG_AK545Ext_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra1x.BP_UG_Kobra1x_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_Molotov.BP_Grenade_Molotov_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Ivan - KONNI PMC",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AK74.BP_Firearm_AK74_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra2x.BP_UG_Kobra2x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Ext.BP_UG_AK545Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Boris - Wagner",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AK74.BP_Firearm_AK74_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Ext.BP_UG_AK545Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra1x.BP_UG_Kobra1x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_Molotov.BP_Grenade_Molotov_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Shadow Ops",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x_Black.BP_UG_Holographic2x_Black_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M45.BP_Firearm_M45_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M45Ext.BP_UG_M45Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "USMC tier2",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A4.BP_Firearm_M16A4_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Ext.BP_UG_AR15Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Miscellaneous/BP_UG_FlatTop.BP_UG_FlatTop_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M1911.BP_Firearm_M1911_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M1911Ext.BP_UG_M1911Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "LD1",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot1x.BP_UG_RedDot1x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Spetsnaz 8",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x_Black.BP_UG_Holographic2x_Black_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderAKM.BP_UG_INSRifleFlashHiderAKM_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Russian Force",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderAKM.BP_UG_INSRifleFlashHiderAKM_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser.BP_UG_INSLongarmLaser_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "German SF",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_G36K.BP_Firearm_G36K_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x_Black.BP_UG_Holographic2x_Black_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw_Rail.BP_UG_Foregrip_QuickDraw_Rail_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_Molotov.BP_Grenade_Molotov_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "SAS 22nd",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x_Black.BP_UG_Holographic2x_Black_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A4.BP_Firearm_M16A4_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Ext.BP_UG_AR15Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Miscellaneous/BP_UG_FlatTop.BP_UG_FlatTop_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_BrowningHP.BP_Firearm_BrowningHP_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_BrowningExt.BP_UG_BrowningExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Breacher_AllGuns.PlayerClass_Security_Coop_Breacher_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/Shotgun/BP_Firearm_M870.BP_Firearm_M870_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_AmmoSlugs.BP_UG_AmmoSlugs_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small_Rail.BP_UG_Foregrip_Recoil_Small_Rail_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECSidearmLaser.BP_UG_SECSidearmLaser_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "Breaker",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/Shotgun/BP_Firearm_M870.BP_Firearm_M870_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_AmmoSlugs.BP_UG_AmmoSlugs_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small_Rail.BP_UG_Foregrip_Recoil_Small_Rail_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECSidearmLaser.BP_UG_SECSidearmLaser_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "SAS 84",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP5A5.BP_Firearm_MP5A5_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_MRO1x.BP_UG_MRO1x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECMP5SDSuppressor.BP_UG_SECMP5SDSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MP5Ext.BP_UG_MP5Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_BrowningHP.BP_Firearm_BrowningHP_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_BrowningExt.BP_UG_BrowningExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Howitzer",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_HBadger.BP_Firearm_HBadger_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Mckenzie",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_Sterling.BP_Firearm_Sterling_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Loading.BP_UG_Foregrip_Loading_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SterlingSuppressor.BP_UG_SterlingSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser_RAS.BP_UG_INSLongarmLaser_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_SterlingExt.BP_UG_SterlingExt_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Makarov.BP_Firearm_Makarov_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MakarovExt.BP_UG_MakarovExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS9mmSuppressor.BP_UG_INS9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Bully",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_GreaseGun.BP_Firearm_GreaseGun_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECGreaseGunAdvSuppressor.BP_UG_SECGreaseGunAdvSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw_GreaseGun.BP_UG_Foregrip_QuickDraw_GreaseGun_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Makarov.BP_Firearm_Makarov_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MakarovExt.BP_UG_MakarovExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS9mmSuppressor.BP_UG_INS9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Bolt Kinsey",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP7.BP_Firearm_MP7_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MP7Ext.BP_UG_MP7Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECSMGFlashHider.BP_UG_SECSMGFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECSidearmLaser.BP_UG_SECSidearmLaser_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Tutorial/PlayerClass_Tutorial_Player.PlayerClass_Tutorial_Player":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [],
+			"nightPresets": [],
+			"activePresetIndex": -1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Marksman_AllGuns.PlayerClass_Security_Coop_Marksman_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SVD.BP_Firearm_SVD_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderMosin.BP_UG_INSRifleFlashHiderMosin_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M9Ext.BP_UG_M9Ext_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "USMC recon_unit",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_MK14.BP_Firearm_MK14_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC762Suppressor.BP_UG_SEC762Suppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Oldie",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_M1Garand.BP_Firearm_M1Garand_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSGarandSuppressor.BP_UG_INSGarandSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Lapua Magnum",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AntiMaterial/BP_Firearm_M82.BP_Firearm_M82_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M82Ext.BP_UG_M82Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECSidearmLaser.BP_UG_SECSidearmLaser_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "One_shot",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SVD.BP_Firearm_SVD_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderMosin.BP_UG_INSRifleFlashHiderMosin_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M9Ext.BP_UG_M9Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 3,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Advisor_AllGuns.PlayerClass_Security_Coop_Advisor_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_Tavor.BP_Firearm_Tavor_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC762Suppressor.BP_UG_SEC762Suppressor_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TavorExt.BP_UG_TavorExt_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_Tavor.BP_Firearm_Tavor_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC762Suppressor.BP_UG_SEC762Suppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TavorExt.BP_UG_TavorExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Shadow corps",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_MK18.BP_Firearm_MK18_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x.BP_UG_Holographic1x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_MK18.BP_Firearm_MK18_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": 0
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Commander_AllGuns.PlayerClass_Security_Coop_Commander_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleCompAKM.BP_UG_INSRifleCompAKM_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						}
+					]
+				},
+				{
+					"presetName": "Igor _ KonniPMC",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleCompAKM.BP_UG_INSRifleCompAKM_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Gunner_AllGuns.PlayerClass_Security_Coop_Gunner_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/MachineGun/BP_Firearm_M249.BP_Firearm_M249_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_BrowningHP.BP_Firearm_BrowningHP_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_BrowningExt.BP_UG_BrowningExt_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/MachineGun/BP_Firearm_M249.BP_Firearm_M249_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_BrowningHP.BP_Firearm_BrowningHP_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_BrowningExt.BP_UG_BrowningExt_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Observer_AllGuns.PlayerClass_Security_Coop_Observer_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_QBZ03.BP_Firearm_QBZ03_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHider.BP_UG_INSRifleFlashHider_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser_RAS.BP_UG_INSLongarmLaser_RAS_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Ext.BP_UG_AR15Ext_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_QBZ03.BP_Firearm_QBZ03_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHider.BP_UG_INSRifleFlashHider_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser_RAS.BP_UG_INSLongarmLaser_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Ext.BP_UG_AR15Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Versus/PlayerClass_Insurgent_Rifleman.PlayerClass_Insurgent_Rifleman":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [],
+			"nightPresets": [],
+			"activePresetIndex": -1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Security/Coop/PlayerClass_Security_Coop_Demolitions_AllGuns.PlayerClass_Security_Coop_Demolitions_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_M203GL.BP_UG_M203GL_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Explosive/BP_Explosive_C4.BP_Explosive_C4_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [],
+			"nightPresets": [],
+			"activePresetIndex": -1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Insurgent/Coop/PlayerClass_Insurgent_Coop_Observer_AllGuns.PlayerClass_Insurgent_Coop_Observer_AllGuns":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [],
+			"nightPresets": [],
+			"activePresetIndex": -1,
+			"activeNightPresetIndex": -1
+		},
+		"/Game/Game/Factions/PlayerClasses/Tutorial/PlayerClass_Tutorial_RangeMaster.PlayerClass_Tutorial_RangeMaster":
+		{
+			"default":
+			{
+				"presetName": "",
+				"items": [
+					{
+						"item": "/Game/Game/Actors/Weapons/AntiMaterial/BP_Firearm_M82.BP_Firearm_M82_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M82Ext.BP_UG_M82Ext_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+						"upgrades": [
+							"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+							"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C"
+						]
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Explosive/BP_Explosive_M3.BP_Explosive_M3_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Weapons/Utilities/BP_Utility_INSBinoculars.BP_Utility_INSBinoculars_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+						"upgrades": []
+					},
+					{
+						"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+						"upgrades": []
+					}
+				]
+			},
+			"presets": [
+				{
+					"presetName": "",
+					"items": [
+						{
+							"item": "/Game/Game/Actors/Weapons/AntiMaterial/BP_Firearm_M82.BP_Firearm_M82_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M82Ext.BP_UG_M82Ext_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+							"upgrades": [
+								"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+								"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C"
+							]
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Explosive/BP_Explosive_M3.BP_Explosive_M3_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Weapons/Utilities/BP_Utility_INSBinoculars.BP_Utility_INSBinoculars_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+							"upgrades": []
+						},
+						{
+							"item": "/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+							"upgrades": []
+						}
+					]
+				}
+			],
+			"nightPresets": [],
+			"activePresetIndex": 0,
+			"activeNightPresetIndex": -1
+		}
+	},
+	"opticPreferences":
+	{
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_LPVO7x.BP_UG_LPVO7x_C": 0,
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra2x.BP_UG_Kobra2x_C": 1,
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x_Black.BP_UG_Holographic2x_Black_C": 1,
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C": 1,
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_SU2304x_Black.BP_UG_SU2304x_Black_C": 0,
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_C794x.BP_UG_C794x_C": 0
+	},
+	"preferredFaction": "Security",
+	"equippedItems": [
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AUG.BP_Firearm_AUG_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_G36K.BP_Firearm_G36K_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_G3.BP_Firearm_G3_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_QTS11.BP_Firearm_QTS11_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M4A1.BP_Firearm_M4A1_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_VHS.BP_Firearm_VHS_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A4.BP_Firearm_M16A4_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Tariq.BP_Firearm_Tariq_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_L105.BP_Firearm_L105_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M45.BP_Firearm_M45_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AK74.BP_Firearm_AK74_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M9.BP_Firearm_M9_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_PF940.BP_Firearm_PF940_C",
+		"/Game/Game/Actors/Weapons/Grenade/BP_Grenade_Molotov.BP_Grenade_Molotov_C",
+		"/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Light.BP_Gear_INS_Armour_Light_C",
+		"/Game/Game/Actors/Gear/Armor/BP_Gear_INS_Armour_Heavy.BP_Gear_INS_Armour_Heavy_C",
+		"/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Heavy.BP_Gear_INS_Carrier_Heavy_C",
+		"/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M84.BP_Grenade_M84_C",
+		"/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M18.BP_Grenade_M18_C",
+		"/Game/Game/Actors/Gear/Carrier/BP_Gear_INS_Carrier_Light.BP_Gear_INS_Carrier_Light_C",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP5A2.BP_Firearm_MP5A2_C",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP5A5.BP_Firearm_MP5A5_C",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_MP7.BP_Firearm_MP7_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_HBadger.BP_Firearm_HBadger_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_ASVAL.BP_Firearm_ASVAL_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Welrod.BP_Firearm_Welrod_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_BrowningHP.BP_Firearm_BrowningHP_C",
+		"/Game/Game/Actors/Weapons/Grenade/BP_Grenade_F1.BP_Grenade_F1_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_GalilSAR.BP_Firearm_GalilSAR_C",
+		"/Game/Game/Actors/Weapons/MachineGun/BP_Firearm_M249.BP_Firearm_M249_C",
+		"/Game/Game/Actors/Weapons/MachineGun/BP_Firearm_PKM.BP_Firearm_PKM_C",
+		"/Game/Game/Actors/Weapons/MachineGun/BP_Firearm_M240.BP_Firearm_M240_C",
+		"/Game/Game/Actors/Weapons/MachineGun/BP_Firearm_MG3.BP_Firearm_MG3_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_Galil.BP_Firearm_Galil_C",
+		"/Game/Game/Actors/Weapons/Grenade/BP_Grenade_ANM14.BP_Grenade_ANM14_C",
+		"/Game/Game/Actors/Weapons/Grenade/BP_Grenade_M67.BP_Grenade_M67_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_M1911.BP_Firearm_M1911_C",
+		"/Game/Game/Actors/Weapons/SideArm/BP_Firearm_Makarov.BP_Firearm_Makarov_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_QBZ03.BP_Firearm_QBZ03_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_M1Garand.BP_Firearm_M1Garand_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_M110.BP_Firearm_M110_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SVD.BP_Firearm_SVD_C",
+		"/Game/Game/Actors/Weapons/AntiMaterial/BP_Firearm_M99.BP_Firearm_M99_C",
+		"/Game/Game/Actors/Weapons/AntiMaterial/BP_Firearm_M82.BP_Firearm_M82_C",
+		"/Game/Game/Actors/Weapons/SniperRifle/BP_Firearm_Mosin.BP_Firearm_Mosin_C",
+		"/Game/Game/Actors/Weapons/SniperRifle/BP_Firearm_M24.BP_Firearm_M24_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKM.BP_Firearm_AKM_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_Fal.BP_Firearm_Fal_C",
+		"/Game/Game/Actors/Weapons/Explosive/BP_Explosive_AT4.BP_Explosive_AT4_C",
+		"/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Heavy.BP_Gear_SEC_Carrier_Heavy_C",
+		"/Game/Game/Actors/Gear/Accessories/BP_Gear_SECGasMask.BP_Gear_SECGasMask_C",
+		"/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Heavy.BP_Gear_SEC_Armour_Heavy_C",
+		"/Game/Game/Actors/Gear/Carrier/BP_Gear_SEC_Carrier_Light.BP_Gear_SEC_Carrier_Light_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_MK14.BP_Firearm_MK14_C",
+		"/Game/Game/Actors/Gear/Armor/BP_Gear_SEC_Armour_Light.BP_Gear_SEC_Armour_Light_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_M16A2.BP_Firearm_M16A2_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKS74u.BP_Firearm_AKS74u_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_AKAlpha.BP_Firearm_AKAlpha_C",
+		"/Game/Game/Actors/Weapons/AssaultRifle/BP_Firearm_MK18.BP_Firearm_MK18_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_ACE52.BP_Firearm_ACE52_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_MK17.BP_Firearm_MK17_C",
+		"/Game/Game/Actors/Weapons/Shotgun/BP_Firearm_M870.BP_Firearm_M870_C",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_Sterling.BP_Firearm_Sterling_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_SKS.BP_Firearm_SKS_C",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_GreaseGun.BP_Firearm_GreaseGun_C",
+		"/Game/Game/Actors/Gear/Accessories/BP_Gear_INSGasMask.BP_Gear_INSGasMask_C",
+		"/Game/Game/Actors/Weapons/SubMachineGun/BP_Firearm_UZI.BP_Firearm_UZI_C",
+		"/Game/Game/Actors/Weapons/BattleRifle/BP_Firearm_Tavor.BP_Firearm_Tavor_C",
+		"/Game/Game/Actors/Weapons/Explosive/BP_Explosive_RPG7.BP_Explosive_RPG7_C",
+		"/Game/Game/Actors/Weapons/Explosive/BP_Explosive_M3.BP_Explosive_M3_C",
+		"/Game/Game/Actors/Weapons/Utilities/BP_Utility_INSBinoculars.BP_Utility_INSBinoculars_C",
+		"/Game/Game/Actors/Weapons/Utilities/BP_Utility_SECBinoculars.BP_Utility_SECBinoculars_C"
+	],
+	"equippedWeaponUpgrades": [
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_AR15FlipUp1x.BP_UG_AR15FlipUp1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x_Black.BP_UG_Holographic1x_Black_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_MRO1x.BP_UG_MRO1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot1x.BP_UG_RedDot1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x_Black.BP_UG_Holographic2x_Black_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_SECBipod_RAS.BP_UG_SECBipod_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Loading.BP_UG_Foregrip_Loading_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Aiming.BP_UG_Foregrip_Aiming_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_M26MK_M16.BP_UG_M26MK_M16_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_MasterkeyMK.BP_UG_MasterkeyMK_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw.BP_UG_Foregrip_QuickDraw_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_M203GLSmoke.BP_UG_M203GLSmoke_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleComp.BP_UG_SECRifleComp_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider.BP_UG_SECRifleFlashHider_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Ext.BP_UG_AR15Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECLongarmLaser_RAS.BP_UG_SECLongarmLaser_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_StandardTracer.BP_UG_StandardTracer_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Miscellaneous/BP_UG_FlatTop.BP_UG_FlatTop_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_RedDot2x.BP_UG_RedDot2x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_SU2304x_RMR_Black.BP_UG_SU2304x_RMR_Black_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_SU2304x_Black.BP_UG_SU2304x_Black_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_C794x.BP_UG_C794x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TariqExt.BP_UG_TariqExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSPistolCompTariq.BP_UG_INSPistolCompTariq_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSPistolFlashHiderTariq.BP_UG_INSPistolFlashHiderTariq_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSSidearmLaser.BP_UG_INSSidearmLaser_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Stock/BP_UG_QuickDrawHolster.BP_UG_QuickDrawHolster_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra1x.BP_UG_Kobra1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_MARs1x.BP_UG_MARs1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_OKP71x.BP_UG_OKP71x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x.BP_UG_PKAS2x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_INSWoodForegripAK74.BP_UG_INSWoodForegripAK74_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_MasterkeyMK_AK.BP_UG_MasterkeyMK_AK_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_INSBipod_MAK.BP_UG_INSBipod_MAK_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_GP25GLSmoke.BP_UG_GP25GLSmoke_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSAKSuppressor.BP_UG_INSAKSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleCompAK74.BP_UG_INSRifleCompAK74_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderAK74.BP_UG_INSRifleFlashHiderAK74_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Ext.BP_UG_AK545Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK545Drum.BP_UG_AK545Drum_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser.BP_UG_INSLongarmLaser_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC9mmSuppressor.BP_UG_SEC9mmSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_PF940Ext.BP_UG_PF940Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECPistolCompP226.BP_UG_SECPistolCompP226_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECPistolFlashHiderP226.BP_UG_SECPistolFlashHiderP226_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_SECSidearmLaser.BP_UG_SECSidearmLaser_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_INSBipod.BP_UG_INSBipod_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x.BP_UG_M3A7x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M1504x.BP_UG_M1504x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_LPVO7x.BP_UG_LPVO7x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS762Suppressor.BP_UG_INS762Suppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small.BP_UG_Foregrip_Recoil_Small_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECSMGComp.BP_UG_SECSMGComp_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECSMGFlashHider.BP_UG_SECSMGFlashHider_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MP5A2Ext.BP_UG_MP5A2Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_MP5Laser.BP_UG_MP5Laser_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_LRT7x.BP_UG_LRT7x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PKAS2x_RAS.BP_UG_PKAS2x_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_OKP71x_RAS.BP_UG_OKP71x_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_OKP72x_RAS.BP_UG_OKP72x_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Mars2x.BP_UG_MARs2x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_QBZ3x.BP_UG_QBZ3x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Kobra2x.BP_UG_Kobra2x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M9Ext.BP_UG_M9Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_GP25VOG.BP_UG_GP25VOG_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderAKM.BP_UG_INSRifleFlashHiderAKM_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK762Ext.BP_UG_AK762Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M1504x_RMR1x.BP_UG_M1504x_RMR1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Aiming_Rail.BP_UG_Foregrip_Aiming_Rail_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_L105Ext.BP_UG_L105Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_AUGGLSmoke.BP_UG_AUGGLSmoke_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_AUGA33x.BP_UG_AUGA33x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_SECForegripBipod_Rail.BP_UG_SECForegripBipod_Rail_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC762Suppressor.BP_UG_SEC762Suppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS9mmSuppressor.BP_UG_INS9mmSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AR15Drum.BP_UG_AR15Drum_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M1911Ext.BP_UG_M1911Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Loading_Rail.BP_UG_Foregrip_Loading_Rail_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleFlashHider308.BP_UG_SECRifleFlashHider308_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECHBadgerSuppressor.BP_UG_SECHBadgerSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_GalilDrum.BP_UG_GalilDrum_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AlphaAKExt.BP_UG_AlphaAKExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Hunting7x.BP_UG_Hunting7x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_INSBipod_RAS.BP_UG_INSBipod_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Chamber/BP_UG_GreasedBolt.BP_UG_GreasedBolt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSGarandSuppressor.BP_UG_INSGarandSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic2x.BP_UG_Holographic2x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_Ug_M26MK.BP_UG_M26MK_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SEC556Suppressor.BP_UG_SEC556Suppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_Holographic1x.BP_UG_Holographic1x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECRifleComp308.BP_UG_SECRifleComp308_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MK17Ext.BP_UG_MK17Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS45Suppressor.BP_UG_INS45Suppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_AK762Drum.BP_UG_AK762Drum_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_M3A7x_Low.BP_UG_M3A7x_Low_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_INSWoodForegripAKM.BP_UG_INSWoodForegripAKM_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleCompAKM.BP_UG_INSRifleCompAKM_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_BrowningExt.BP_UG_BrowningExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw_Rail.BP_UG_Foregrip_QuickDraw_Rail_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Rail.BP_UG_Foregrip_Recoil_Rail_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Optics/BP_UG_PSO14x.BP_UG_PSO14x_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_ASVALExt.BP_UG_ASVALExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SterlingSuppressor.BP_UG_SterlingSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_SterlingExt.BP_UG_SterlingExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_GalilACEExt.BP_UG_GalilACEExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECGreaseGunSuppressor.BP_UG_SECGreaseGunSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_ShotgunSuppressor.BP_UG_ShotgunSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECShotgunComp.BP_UG_SECShotgunComp_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_AmmoFlechette.BP_UG_AmmoFlechette_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Ammo/BP_UG_AmmoSlugs.BP_UG_AmmoSlugs_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M45Ext.BP_UG_M45Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MakarovExt.BP_UG_MakarovExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_G36Ext.BP_UG_G36Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil_Small_Rail.BP_UG_Foregrip_Recoil_Small_Rail_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECMP5SDSuppressor.BP_UG_SECMP5SDSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MP5Ext.BP_UG_MP5Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_SVDExt.BP_UG_SVDExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderMosin.BP_UG_INSRifleFlashHiderMosin_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INS45SMGSuppressor.BP_UG_INS45SMGSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSSMGComp.BP_UG_INSSMGComp_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSSMGFlashHider.BP_UG_INSSMGFlashHider_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_UziDrum.BP_UG_UziDrum_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_UziExt.BP_UG_UziExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Siderail/BP_UG_INSLongarmLaser_RAS.BP_UG_INSLongarmLaser_RAS_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_G3Ext.BP_UG_G3Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_TavorExt.BP_UG_TavorExt_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSAK74uSuppressor.BP_UG_INSAK74uSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_M1GarandGL_Smoke.BP_UG_M1GarandGL_Smoke_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHiderGarand.BP_UG_INSRifleFlashHiderGarand_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_M203GL.BP_UG_M203GL_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Recoil.BP_UG_Foregrip_Recoil_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_SECForegripBipod.BP_UG_SECForegripBipod_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_M82Ext.BP_UG_M82Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECGreaseGunAdvSuppressor.BP_UG_SECGreaseGunAdvSuppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_QuickDraw_GreaseGun.BP_UG_Foregrip_QuickDraw_GreaseGun_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Underbarrel/BP_UG_Foregrip_Aiming_GreaseGun.BP_UG_Foregrip_Aiming_GreaseGun_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_SECMP7Suppressor.BP_UG_SECMP7Suppressor_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Magazine/BP_UG_MP7Ext.BP_UG_MP7Ext_C",
+		"/Game/Game/Actors/Weapons/Upgrades/Muzzle/BP_UG_INSRifleFlashHider.BP_UG_INSRifleFlashHider_C"
+	]
+}
