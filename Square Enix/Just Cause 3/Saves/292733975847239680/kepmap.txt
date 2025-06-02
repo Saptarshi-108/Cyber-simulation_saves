@@ -1,0 +1,998 @@
+[
+    {
+        "action": "LOOK_UP",
+        "key": "PC_MOUSEDOWN"
+    },
+    {
+        "action": "LOOK_UP",
+        "key": "PC_GAMEPAD_RTHUMB_UP"
+    },
+    {
+        "action": "LOOK_DOWN",
+        "key": "PC_MOUSEUP"
+    },
+    {
+        "action": "LOOK_DOWN",
+        "key": "PC_GAMEPAD_RTHUMB_DOWN"
+    },
+    {
+        "action": "LOOK_LEFT",
+        "key": "PC_MOUSELEFT"
+    },
+    {
+        "action": "LOOK_LEFT",
+        "key": "PC_GAMEPAD_RTHUMB_LEFT"
+    },
+    {
+        "action": "LOOK_RIGHT",
+        "key": "PC_MOUSERIGHT"
+    },
+    {
+        "action": "LOOK_RIGHT",
+        "key": "PC_GAMEPAD_RTHUMB_RIGHT"
+    },
+    {
+        "action": "LOOK_BACK_CAM",
+        "key": "PC_B"
+    },
+    {
+        "action": "LOOK_BACK_CAM",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "VEHICLE_CAM",
+        "key": "PC_B"
+    },
+    {
+        "action": "VEHICLE_CAM",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "TOGGLE_MAGNET_1",
+        "key": "PC_T"
+    },
+    {
+        "action": "TOGGLE_MAGNET_1",
+        "key": "PC_GAMEPAD_LTHUMB_PRESS"
+    },
+    {
+        "action": "TOGGLE_MAGNET_2",
+        "key": "PC_T"
+    },
+    {
+        "action": "TOGGLE_MAGNET_2",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "FIRE_VEHICLE_WEAPON_PRIMARY",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "FIRE_VEHICLE_WEAPON_PRIMARY",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "FIRE_LEFT",
+        "key": "PC_MOUSE2"
+    },
+    {
+        "action": "FIRE_LEFT",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "FIRE_RIGHT",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "FIRE_RIGHT",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "FIRE_VEHICLE_WEAPON_SECONDARY",
+        "key": "PC_MOUSE2"
+    },
+    {
+        "action": "FIRE_VEHICLE_WEAPON_SECONDARY",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "THROW_GRENADE",
+        "key": "PC_F"
+    },
+    {
+        "action": "THROW_GRENADE",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "RELOAD",
+        "key": "PC_R"
+    },
+    {
+        "action": "RELOAD",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "NEXT_WEAPON",
+        "key": "PC_MWHEELUP"
+    },
+    {
+        "action": "PREV_WEAPON",
+        "key": "PC_MWHEELDOWN"
+    },
+    {
+        "action": "FREEFLY_SPEED_UP",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "FREEFLY_SPEED_UP",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "FREEFLY_SLOW_DOWN",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "FREEFLY_SLOW_DOWN",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "MOVE_FORWARD",
+        "key": "PC_W"
+    },
+    {
+        "action": "MOVE_FORWARD",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "MOVE_BACKWARD",
+        "key": "PC_S"
+    },
+    {
+        "action": "MOVE_BACKWARD",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "MOVE_LEFT",
+        "key": "PC_A"
+    },
+    {
+        "action": "MOVE_LEFT",
+        "key": "PC_GAMEPAD_LTHUMB_LEFT"
+    },
+    {
+        "action": "MOVE_RIGHT",
+        "key": "PC_D"
+    },
+    {
+        "action": "MOVE_RIGHT",
+        "key": "PC_GAMEPAD_LTHUMB_RIGHT"
+    },
+    {
+        "action": "WALK",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "JUMP",
+        "key": "PC_SPACE"
+    },
+    {
+        "action": "JUMP",
+        "key": "PC_GAMEPAD_A"
+    },
+    {
+        "action": "CHALLENGE_RESET_VEHICLE",
+        "key": "PC_P"
+    },
+    {
+        "action": "CHALLENGE_RESET_VEHICLE",
+        "key": "PC_GAMEPAD_DPAD_DOWN"
+    },
+    {
+        "action": "ENTER_VEHICLE",
+        "key": "PC_E"
+    },
+    {
+        "action": "ENTER_VEHICLE",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "USE_ITEM",
+        "key": "PC_E"
+    },
+    {
+        "action": "USE_ITEM",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "ACCELERATE",
+        "key": "PC_W"
+    },
+    {
+        "action": "ACCELERATE",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "REVERSE",
+        "key": "PC_S"
+    },
+    {
+        "action": "REVERSE",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "TURN_LEFT",
+        "key": "PC_A"
+    },
+    {
+        "action": "TURN_LEFT",
+        "key": "PC_GAMEPAD_LTHUMB_LEFT"
+    },
+    {
+        "action": "TURN_RIGHT",
+        "key": "PC_D"
+    },
+    {
+        "action": "TURN_RIGHT",
+        "key": "PC_GAMEPAD_LTHUMB_RIGHT"
+    },
+    {
+        "action": "HANDBRAKE",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "HANDBRAKE",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "SOUND_HORN_SIREN",
+        "key": "PC_X"
+    },
+    {
+        "action": "SOUND_HORN_SIREN",
+        "key": "PC_GAMEPAD_LTHUMB_PRESS"
+    },
+    {
+        "action": "EXIT_VEHICLE",
+        "key": "PC_E"
+    },
+    {
+        "action": "EXIT_VEHICLE",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "BIKE_TILT_FORWARD",
+        "key": "PC_LALT"
+    },
+    {
+        "action": "BIKE_TILT_FORWARD",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "BIKE_TILT_BACKWARD",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "BIKE_TILT_BACKWARD",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "HELI_FORWARD",
+        "key": "PC_W"
+    },
+    {
+        "action": "HELI_FORWARD",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "HELI_BACKWARD",
+        "key": "PC_S"
+    },
+    {
+        "action": "HELI_BACKWARD",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "HELI_TURN_LEFT",
+        "key": "PC_MOUSELEFT"
+    },
+    {
+        "action": "HELI_TURN_LEFT",
+        "key": "PC_GAMEPAD_RTHUMB_LEFT"
+    },
+    {
+        "action": "HELI_TURN_RIGHT",
+        "key": "PC_MOUSERIGHT"
+    },
+    {
+        "action": "HELI_TURN_RIGHT",
+        "key": "PC_GAMEPAD_RTHUMB_RIGHT"
+    },
+    {
+        "action": "HELI_ROLL_LEFT",
+        "key": "PC_A"
+    },
+    {
+        "action": "HELI_ROLL_LEFT",
+        "key": "PC_GAMEPAD_LTHUMB_LEFT"
+    },
+    {
+        "action": "HELI_ROLL_RIGHT",
+        "key": "PC_D"
+    },
+    {
+        "action": "HELI_ROLL_RIGHT",
+        "key": "PC_GAMEPAD_LTHUMB_RIGHT"
+    },
+    {
+        "action": "HELI_INC_ALTITUDE",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "HELI_INC_ALTITUDE",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "HELI_DEC_ALTITUDE",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "HELI_DEC_ALTITUDE",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "PLANE_PITCH_UP",
+        "key": "PC_S"
+    },
+    {
+        "action": "PLANE_PITCH_UP",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "PLANE_PITCH_DOWN",
+        "key": "PC_W"
+    },
+    {
+        "action": "PLANE_PITCH_DOWN",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "PLANE_TURN_LEFT",
+        "key": "PC_Z"
+    },
+    {
+        "action": "PLANE_TURN_LEFT",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "PLANE_TURN_RIGHT",
+        "key": "PC_C"
+    },
+    {
+        "action": "PLANE_TURN_RIGHT",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "PLANE_ROLL_LEFT",
+        "key": "PC_A"
+    },
+    {
+        "action": "PLANE_ROLL_LEFT",
+        "key": "PC_GAMEPAD_LTHUMB_LEFT"
+    },
+    {
+        "action": "PLANE_ROLL_RIGHT",
+        "key": "PC_D"
+    },
+    {
+        "action": "PLANE_ROLL_RIGHT",
+        "key": "PC_GAMEPAD_LTHUMB_RIGHT"
+    },
+    {
+        "action": "PLANE_INC_TRUST",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "PLANE_INC_TRUST",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "PLANE_DEC_TRUST",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "PLANE_DEC_TRUST",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "BIKE_LEAN_LEFT",
+        "key": "PC_A"
+    },
+    {
+        "action": "BIKE_LEAN_LEFT",
+        "key": "PC_GAMEPAD_LTHUMB_LEFT"
+    },
+    {
+        "action": "BIKE_LEAN_RIGHT",
+        "key": "PC_D"
+    },
+    {
+        "action": "BIKE_LEAN_RIGHT",
+        "key": "PC_GAMEPAD_LTHUMB_RIGHT"
+    },
+    {
+        "action": "GUI_OK",
+        "key": "PC_GAMEPAD_A"
+    },
+    {
+        "action": "GUI_CANCEL",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "GUI_UP",
+        "key": "PC_GAMEPAD_DPAD_UP"
+    },
+    {
+        "action": "GUI_DOWN",
+        "key": "PC_GAMEPAD_DPAD_DOWN"
+    },
+    {
+        "action": "GUI_LEFT",
+        "key": "PC_GAMEPAD_DPAD_LEFT"
+    },
+    {
+        "action": "GUI_RIGHT",
+        "key": "PC_GAMEPAD_DPAD_RIGHT"
+    },
+    {
+        "action": "GUI_PAUSE",
+        "key": "PC_ESCAPE"
+    },
+    {
+        "action": "GUI_PAUSE",
+        "key": "PC_GAMEPAD_START"
+    },
+    {
+        "action": "FREEFLY_COMBO1",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "FREEFLY_COMBO2",
+        "key": "PC_GAMEPAD_DPAD_LEFT"
+    },
+    {
+        "action": "MECH_PUNCH",
+        "key": "PC_MOUSE3"
+    },
+    {
+        "action": "MECH_PUNCH",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "MECH_FIRE_GRAVITY_WEAPON_PRIMARY",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "MECH_FIRE_GRAVITY_WEAPON_PRIMARY",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "MECH_FIRE_RIGHT_HAND_WEAPON",
+        "key": "PC_MOUSE2"
+    },
+    {
+        "action": "MECH_FIRE_RIGHT_HAND_WEAPON",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "MECH_FIRE_GRAVITY_WEAPON_SECONDARY",
+        "key": "PC_Q"
+    },
+    {
+        "action": "MECH_FIRE_GRAVITY_WEAPON_SECONDARY",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "STUNT_JUMP",
+        "key": "PC_SPACE"
+    },
+    {
+        "action": "STUNT_JUMP",
+        "key": "PC_GAMEPAD_A"
+    },
+    {
+        "action": "GUI_PDA",
+        "key": "PC_TAB"
+    },
+    {
+        "action": "GUI_PDA",
+        "key": "PC_GAMEPAD_BACK"
+    },
+    {
+        "action": "GUI_PAGE_NEXT",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "GUI_PAGE_PREV",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "BYPASS_FALL_PREVENTION",
+        "key": "PC_Z"
+    },
+    {
+        "action": "BYPASS_FALL_PREVENTION",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "MECH_JUMP",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "MECH_JUMP",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "MC_FIRE",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "MC_FIRE",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "MC_RELOAD",
+        "key": "PC_MOUSE2"
+    },
+    {
+        "action": "MC_RELOAD",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "USE_VEHICLE_MOD",
+        "key": "PC_MOUSE3"
+    },
+    {
+        "action": "USE_VEHICLE_MOD",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "QUICK_SAVE",
+        "key": "PC_F7"
+    },
+    {
+        "action": "QUICK_LOAD",
+        "key": "PC_F8"
+    },
+    {
+        "action": "DEBUG_INCREE",
+        "key": "PC_RIGHT"
+    },
+    {
+        "action": "DEBUG_INCREE",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "DEBUG_DECREE",
+        "key": "PC_LEFT"
+    },
+    {
+        "action": "DEBUG_DECREE",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "LOOK_AT",
+        "key": "PC_R"
+    },
+    {
+        "action": "LOOK_AT",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "SKIP_CUTSCENE",
+        "key": "PC_SPACE"
+    },
+    {
+        "action": "SKIP_CUTSCENE",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "WINGSUIT_TAKEOFF",
+        "key": "PC_E"
+    },
+    {
+        "action": "WINGSUIT_TAKEOFF",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "WINGSUIT_AIRBRAKE",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "WINGSUIT_AIRBRAKE",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "WINGSUIT_EVADE",
+        "key": "PC_LALT"
+    },
+    {
+        "action": "WINGSUIT_EVADE",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "MOVE_ALL",
+        "key": "PC_GAMEPAD_LTHUMB_GENERIC"
+    },
+    {
+        "action": "MOVE_ALL",
+        "key": "PC_ALL_MOVEMENT"
+    },
+    {
+        "action": "WINGSUIT_BOOST",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "WINGSUIT_BOOST",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "DP_UP",
+        "key": "PC_GAMEPAD_DPAD_UP"
+    },
+    {
+        "action": "DP_DOWN",
+        "key": "PC_GAMEPAD_DPAD_DOWN"
+    },
+    {
+        "action": "DP_LEFT",
+        "key": "PC_GAMEPAD_DPAD_LEFT"
+    },
+    {
+        "action": "DP_RIGHT",
+        "key": "PC_GAMEPAD_DPAD_RIGHT"
+    },
+    {
+        "action": "BTN_Y",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "BTN_A",
+        "key": "PC_GAMEPAD_A"
+    },
+    {
+        "action": "BTN_X",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "BTN_B",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "L1",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "L2",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "R1",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "R2",
+        "key": "PC_GAMEPAD_RTRIGGER"
+    },
+    {
+        "action": "DEBUG_STEP",
+        "key": "PC_NUMPADPLUS"
+    },
+    {
+        "action": "SUBMERSIBLE_DIVE",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "SUBMERSIBLE_DIVE",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "SUBMERSIBLE_SURFACE",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "SUBMERSIBLE_SURFACE",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "DEV_MODIFIER_COMBO_1",
+        "key": "PC_RSHIFT"
+    },
+    {
+        "action": "DEV_MODIFIER_COMBO_1",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "DEV_MODIFIER_COMBO_2",
+        "key": "PC_RSHIFT"
+    },
+    {
+        "action": "DEV_MODIFIER_COMBO_2",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "FREEFLY",
+        "key": "PC_F10"
+    },
+    {
+        "action": "MEASURE_TOOL",
+        "key": "PC_M"
+    },
+    {
+        "action": "MEASURE_TOOL",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "DETONATE_EXPLOSIVE_TAP",
+        "key": "PC_Q"
+    },
+    {
+        "action": "DETONATE_EXPLOSIVE_TAP",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "PLANT_EXPLOSIVE",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "PLANT_EXPLOSIVE",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "DETONATE_EXPLOSIVE",
+        "key": "PC_F"
+    },
+    {
+        "action": "DETONATE_EXPLOSIVE",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "OPEN_WINGSUIT",
+        "key": "PC_E"
+    },
+    {
+        "action": "OPEN_WINGSUIT",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "FIRE_WINGSUIT_WEAPON_MAIN",
+        "key": "PC_F"
+    },
+    {
+        "action": "FIRE_WINGSUIT_WEAPON_MAIN",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "OPEN_PARACHUTE",
+        "key": "PC_SPACE"
+    },
+    {
+        "action": "OPEN_PARACHUTE",
+        "key": "PC_GAMEPAD_A"
+    },
+    {
+        "action": "FIRE_WINGSUIT_WEAPON_SECONDARY",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "FIRE_WINGSUIT_WEAPON_SECONDARY",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "FIRE_GRAPPLE",
+        "key": "PC_MOUSE2"
+    },
+    {
+        "action": "FIRE_GRAPPLE",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "PUSH_GRAPPLE",
+        "key": "PC_C"
+    },
+    {
+        "action": "PUSH_GRAPPLE",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "VEHICLE_RELEASE_GRAPPLE",
+        "key": "PC_V"
+    },
+    {
+        "action": "VEHICLE_RELEASE_GRAPPLE",
+        "key": "PC_GAMEPAD_DPAD_DOWN"
+    },
+    {
+        "action": "PRECISION_AIM",
+        "key": "PC_LALT"
+    },
+    {
+        "action": "PRECISION_AIM",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "START",
+        "key": "PC_GAMEPAD_START"
+    },
+    {
+        "action": "SELECT",
+        "key": "PC_GAMEPAD_BACK"
+    },
+    {
+        "action": "L3",
+        "key": "PC_GAMEPAD_LTHUMB_PRESS"
+    },
+    {
+        "action": "R3",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "SELECT_EXPLOSIVES",
+        "key": "PC_G"
+    },
+    {
+        "action": "SELECT_EXPLOSIVES",
+        "key": "PC_GAMEPAD_DPAD_DOWN"
+    },
+    {
+        "action": "RETRACT_GRAPPLE",
+        "key": "PC_LSHIFT"
+    },
+    {
+        "action": "RETRACT_GRAPPLE",
+        "key": "PC_GAMEPAD_LTRIGGER"
+    },
+    {
+        "action": "RELEASE_GRAPPLE",
+        "key": "PC_V"
+    },
+    {
+        "action": "RELEASE_GRAPPLE",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "GUI_TAB_NEXT",
+        "key": "PC_GAMEPAD_RSHOULDER"
+    },
+    {
+        "action": "GUI_TAB_PREV",
+        "key": "PC_GAMEPAD_LSHOULDER"
+    },
+    {
+        "action": "GUI_SPECIAL_BUTTON",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "GUI_LSTICK_UP",
+        "key": "PC_GAMEPAD_LTHUMB_UP"
+    },
+    {
+        "action": "GUI_LSTICK_DOWN",
+        "key": "PC_GAMEPAD_LTHUMB_DOWN"
+    },
+    {
+        "action": "GUI_LSTICK_LEFT",
+        "key": "PC_GAMEPAD_LTHUMB_LEFT"
+    },
+    {
+        "action": "GUI_LSTICK_RIGHT",
+        "key": "PC_GAMEPAD_LTHUMB_RIGHT"
+    },
+    {
+        "action": "GUI_RSTICK_UP",
+        "key": "PC_GAMEPAD_RTHUMB_UP"
+    },
+    {
+        "action": "GUI_RSTICK_DOWN",
+        "key": "PC_GAMEPAD_RTHUMB_DOWN"
+    },
+    {
+        "action": "GUI_RSTICK_LEFT",
+        "key": "PC_GAMEPAD_RTHUMB_LEFT"
+    },
+    {
+        "action": "GUI_RSTICK_RIGHT",
+        "key": "PC_GAMEPAD_RTHUMB_RIGHT"
+    },
+    {
+        "action": "GUI_ZOOM_IN",
+        "key": "PC_GAMEPAD_RTHUMB_UP"
+    },
+    {
+        "action": "GUI_ZOOM_OUT",
+        "key": "PC_GAMEPAD_RTHUMB_DOWN"
+    },
+    {
+        "action": "SELECT_DUEL_WIELD",
+        "key": "PC_1"
+    },
+    {
+        "action": "SELECT_DUEL_WIELD",
+        "key": "PC_GAMEPAD_DPAD_UP"
+    },
+    {
+        "action": "SELECT_TWO_HANDED",
+        "key": "PC_2"
+    },
+    {
+        "action": "SELECT_TWO_HANDED",
+        "key": "PC_GAMEPAD_DPAD_RIGHT"
+    },
+    {
+        "action": "SELECT_TWO_HANDED_SPECIAL",
+        "key": "PC_3"
+    },
+    {
+        "action": "SELECT_TWO_HANDED_SPECIAL",
+        "key": "PC_GAMEPAD_DPAD_LEFT"
+    },
+    {
+        "action": "MOVIE_CAM_GAME_SPEED_INC",
+        "key": "PC_GAMEPAD_Y"
+    },
+    {
+        "action": "MOVIE_CAM_GAME_SPEED_DEC",
+        "key": "PC_GAMEPAD_A"
+    },
+    {
+        "action": "MOVIE_CAM_SHAKE_AMP_DEC",
+        "key": "PC_GAMEPAD_DPAD_DOWN"
+    },
+    {
+        "action": "MOVIE_CAM_SHAKE_AMP_INC",
+        "key": "PC_GAMEPAD_DPAD_UP"
+    },
+    {
+        "action": "MOVIE_CAM_PAUSE",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "MOVIE_CAM_ATTACH_TO_OBJ",
+        "key": "PC_GAMEPAD_LTHUMB_PRESS"
+    },
+    {
+        "action": "MOVIE_CAM_TOGGLE_MOUNT",
+        "key": "PC_GAMEPAD_DPAD_LEFT"
+    },
+    {
+        "action": "CANCEL",
+        "key": "PC_LCONTROL"
+    },
+    {
+        "action": "CANCEL",
+        "key": "PC_GAMEPAD_B"
+    },
+    {
+        "action": "MOUSE1",
+        "key": "PC_MOUSE1"
+    },
+    {
+        "action": "MOUSE2",
+        "key": "PC_MOUSE2"
+    },
+    {
+        "action": "GUI_FILTER",
+        "key": "PC_GAMEPAD_X"
+    },
+    {
+        "action": "GUI_RECENTER",
+        "key": "PC_GAMEPAD_RTHUMB_PRESS"
+    },
+    {
+        "action": "GUI_FOCUS",
+        "key": "PC_GAMEPAD_LTHUMB_PRESS"
+    },
+    {
+        "action": "GUI_USE_BUTTON",
+        "key": "PC_GAMEPAD_Y"
+    }
+]
