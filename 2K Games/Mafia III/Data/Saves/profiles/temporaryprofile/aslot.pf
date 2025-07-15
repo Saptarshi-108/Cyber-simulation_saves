@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<C_SaveDataUnwrapped>
+	<m_Blocks>
+		<C_SaveBlockScriptDataStorage>
+			<m_DataGroupNew>
+				<std::pair__20____26__lt__3b____20__C_HashName__20____2c____20__S_Variable__20____2a____20____20____26__gt__3b__>
+					<C_HashName>
+						<m_Hash>13523186896098513984</m_Hash>
+					</C_HashName>
+					<Second>
+						<S_VariableBool>
+							<m_Value>true</m_Value>
+							<m_Type>1</m_Type>
+						</S_VariableBool>
+					</Second>
+				</std::pair__20____26__lt__3b____20__C_HashName__20____2c____20__S_Variable__20____2a____20____20____26__gt__3b__>
+			</m_DataGroupNew>
+			<m_Id>C_SaveBlockScriptDataStorage</m_Id>
+			<m_Layer>0</m_Layer>
+		</C_SaveBlockScriptDataStorage>
+		<C_GameSettingsSlotSaveBlock>
+			<S_GameSettingsSlot>
+				<m_Difficulty>2</m_Difficulty>
+				<m_AimingAssistanceLevel>1</m_AimingAssistanceLevel>
+				<m_UseLethalTakedowns>true</m_UseLethalTakedowns>
+			</S_GameSettingsSlot>
+			<m_Id>GameSettingsSlot</m_Id>
+			<m_Layer>0</m_Layer>
+		</C_GameSettingsSlotSaveBlock>
+		<C_My2KSaveBlock>
+			<S_My2KSaveData>
+				<m_GameSessionId></m_GameSessionId>
+				<m_GameStartEventSent>false</m_GameStartEventSent>
+				<m_GameEndedEventSent>false</m_GameEndedEventSent>
+			</S_My2KSaveData>
+			<m_Id>My2KSaveBlock</m_Id>
+			<m_Layer>0</m_Layer>
+		</C_My2KSaveBlock>
+	</m_Blocks>
+</C_SaveDataUnwrapped>Qßº¿

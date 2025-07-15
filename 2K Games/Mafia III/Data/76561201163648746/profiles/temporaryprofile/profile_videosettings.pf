@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<C_SaveDataUnwrapped>
+	<m_Blocks>
+		<S_VideoSettingsSaveBlock>
+			<m_GameplayFOVMultiplier>1.00000000e+00</m_GameplayFOVMultiplier>
+			<m_GameplayDepthOfFieldEnabled>true</m_GameplayDepthOfFieldEnabled>
+			<m_GlobalSettings>0</m_GlobalSettings>
+			<m_GamaCorrection>1.00000000e+00</m_GamaCorrection>
+			<m_SSAO>0</m_SSAO>
+			<m_ShadowQuality>0</m_ShadowQuality>
+			<m_GeometryDetail>0</m_GeometryDetail>
+			<m_AntiAliasing>0</m_AntiAliasing>
+			<m_ReflectionQuality>0</m_ReflectionQuality>
+			<m_VolumetricEffects>0</m_VolumetricEffects>
+			<m_VSync>true</m_VSync>
+			<m_MotionBlur>true</m_MotionBlur>
+			<m_FPS>1</m_FPS>
+			<m_Bloom>false</m_Bloom>
+			<m_AnisotropicFiltering>0</m_AnisotropicFiltering>
+			<m_TextureQuality>0</m_TextureQuality>
+			<m_Id>VideoSettings</m_Id>
+			<m_Layer>0</m_Layer>
+		</S_VideoSettingsSaveBlock>
+	</m_Blocks>
+</C_SaveDataUnwrapped>Ï‘:'
