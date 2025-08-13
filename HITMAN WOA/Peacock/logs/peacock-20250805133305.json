@@ -1,0 +1,243 @@
+{"timestamp":"13:33:05:885","category":"none","level":"Debug","message":"Loaded flags."}
+{"timestamp":"13:33:05:929","category":"none","level":"Info","message":"This is Peacock v6.5.1 (rev 6510), with Node v18.15.0."}
+{"timestamp":"13:33:05:933","category":"none","level":"Info","message":"Booting Peacock internal services - this may take a moment."}
+{"timestamp":"13:33:05:935","category":"none","level":"Info","message":"Server started."}
+{"timestamp":"13:33:06:051","category":"none","level":"Debug","message":"Discovered 160 escalation groups."}
+{"timestamp":"13:33:08:942","category":"none","level":"Warn","message":"Peacock is out-of-date! Check the Discord for the latest release."}
+{"timestamp":"13:33:42:422","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/config/pc-prod/8_13_0?issuer=1659040\u001b[24m"}
+{"timestamp":"13:33:42:454","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/files/onlineconfig.json\u001b[24m"}
+{"timestamp":"13:33:42:469","category":"http","level":"Info","message":"\u001b[32mHEAD\u001b[39m \u001b[4m/files/privacypolicy/hm3/privacypolicy_en.json\u001b[24m"}
+{"timestamp":"13:33:42:504","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/oauth/token\u001b[24m"}
+{"timestamp":"13:33:42:515","category":"none","level":"Debug","message":"Setting up container with ID 2274ad11-9fed-49df-81e5-0bcc20ac85b0."}
+{"timestamp":"13:33:44:149","category":"none","level":"Debug","message":"code 410"}
+{"timestamp":"13:33:44:171","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetPlatformEntitlements\u001b[24m"}
+{"timestamp":"13:33:44:203","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/authentication/api/configuration/Init?configName=pc-prod&lockedContentDisabled=false&isFreePrologueUser=false&isIntroPackUser=false&isFullExperienceUser=true\u001b[24m"}
+{"timestamp":"13:33:44:219","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/AuthenticationService/GetBlobOfflineCacheDatabaseDiff\u001b[24m"}
+{"timestamp":"13:33:44:236","category":"http","level":"Info","message":"\u001b[32mHEAD\u001b[39m \u001b[4m/resources-8-13/dynamic_resources_pc_release_rpkg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:44:237","category":"none","level":"Debug","message":"Serving dynamic resources from file dynamic_resources_h3.rpkg."}
+{"timestamp":"13:33:44:286","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateProfileStats\u001b[24m"}
+{"timestamp":"13:33:44:302","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetUserConfig\u001b[24m"}
+{"timestamp":"13:33:44:319","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetProfile\u001b[24m"}
+{"timestamp":"13:33:44:320","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:33:44:353","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchroniseGameStats\u001b[24m"}
+{"timestamp":"13:33:44:354","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:33:44:387","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/SynchronizeOfflineUnlockables\u001b[24m"}
+{"timestamp":"13:33:44:403","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:33:44:419","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:33:44:453","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateExtensions\u001b[24m"}
+{"timestamp":"13:33:44:454","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/GamePersistentDataService/GetData\u001b[24m"}
+{"timestamp":"13:33:44:486","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/GetFriendsCount\u001b[24m"}
+{"timestamp":"13:33:44:504","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:33:44:552","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"13:33:44:553","category":"none","level":"Warn","message":"Unable to save session 95863978885500-0ab9f43d-317e-41d3-8712-0e32a76300be because the session does not exist in the server's memory."}
+{"timestamp":"13:33:44:720","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"13:33:44:721","category":"none","level":"Warn","message":"Unable to save session 95863978885500-0ab9f43d-317e-41d3-8712-0e32a76300be because the session does not exist in the server's memory."}
+{"timestamp":"13:33:44:785","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Hub\u001b[24m"}
+{"timestamp":"13:33:45:517","category":"none","level":"Debug","message":"Get EscalationUCProps - group: ae04c7a0-4028-4524-b27f-6a62f020fdca prog: 1"}
+{"timestamp":"13:33:45:518","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 494d97a6-9e31-45e0-9dae-f3793c731336 prog: 1"}
+{"timestamp":"13:33:45:518","category":"none","level":"Debug","message":"Get EscalationUCProps - group: a838c4b0-7db5-4ac7-8d52-e8c5b82aa376 prog: 1"}
+{"timestamp":"13:33:45:518","category":"none","level":"Debug","message":"Get EscalationUCProps - group: e3b65e65-636b-4dfd-bb42-65a18c5dce4a prog: 1"}
+{"timestamp":"13:33:45:519","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 5121acde-313d-4517-ae70-6a54ca5d775a prog: 1"}
+{"timestamp":"13:33:45:519","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 8c8ed496-948f-4672-879b-4d9575406577 prog: 1"}
+{"timestamp":"13:33:45:519","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 8e95dcd0-704f-4121-8be6-088a3812f838 prog: 1"}
+{"timestamp":"13:33:45:554","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/hub/hub_page.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:45:586","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/hub/data/isfullmenuavailable.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:45:586","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/hub/dashboard/dashboard.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:45:654","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/hub/modals/roadmap/modal.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:45:688","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/elements/settings/data/isnonvroptionvisible.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:46:060","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/hub/dashboard/category_escalation/result.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:46:062","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/dashboard/Dashboard_Category_Escalation/10000000-0000-0000-0000-000000000000/ContractList/25739126-6a40-4b0b-b9a6-5da1b737190b/dataonly\u001b[24m"}
+{"timestamp":"13:33:46:064","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 74415eca-d01e-4070-9bc9-5ef9b4e8f7d2 prog: 1"}
+{"timestamp":"13:33:46:064","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 9e0188e8-bdad-476c-b4ce-2faa5d2be56c prog: 1"}
+{"timestamp":"13:33:46:064","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 0cceeecb-c8fe-42a4-aee4-d7b575f56a1b prog: 1"}
+{"timestamp":"13:33:46:064","category":"none","level":"Debug","message":"Get EscalationUCProps - group: 667f48a3-7f6b-486e-8f6b-2f782a5c4857 prog: 1"}
+{"timestamp":"13:33:46:336","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/contracts/escalation/contractescalation_blueberrybush.png?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:46:337","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/contracts/escalation/contractescalation_rocco.png?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:46:339","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/contracts/escalation/contractescalation-author-satanta.png?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:46:342","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/contracts/escalation/contractescalation_khakiasp_documentation.png?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:33:54:436","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:34:04:453","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:34:14:470","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:34:24:485","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:34:34:502","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:34:44:500","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:34:54:519","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:35:04:536","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:35:14:551","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:35:24:552","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:35:34:568","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:35:44:584","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:35:54:600","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:36:04:616","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:36:09:668","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/GamePersistentDataService/GetData\u001b[24m"}
+{"timestamp":"13:36:09:751","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"13:36:09:751","category":"none","level":"Warn","message":"Unable to save session 95863978885500-0ab9f43d-317e-41d3-8712-0e32a76300be because the session does not exist in the server's memory."}
+{"timestamp":"13:36:09:998","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Planning?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&resetescalation=false&forcecurrentcontract=false&errorhandling=false\u001b[24m"}
+{"timestamp":"13:36:10:000","category":"none","level":"Debug","message":"Looking up details for contract - Location:LOCATION_ELEGANT_LLAMA (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:36:10:147","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/planning/actions/actions_contextbutton_play.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:14:369","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/GamePersistentDataService/GetData\u001b[24m"}
+{"timestamp":"13:36:14:449","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"13:36:14:450","category":"none","level":"Warn","message":"Unable to save session 95863978885500-0ab9f43d-317e-41d3-8712-0e32a76300be because the session does not exist in the server's memory."}
+{"timestamp":"13:36:14:631","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:36:14:698","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Planning?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&resetescalation=false&forcecurrentcontract=false&errorhandling=false\u001b[24m"}
+{"timestamp":"13:36:14:700","category":"none","level":"Debug","message":"Looking up details for contract - Location:LOCATION_ELEGANT_LLAMA (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:36:17:367","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=2&slotname=concealedweapon2&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:36:21:849","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:36:24:649","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:36:25:333","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=5&slotname=gear5&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:36:31:648","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:36:34:217","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=5&slotname=gear5&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:36:34:647","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:36:39:881","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/DefaultLoadoutService/Set\u001b[24m"}
+{"timestamp":"13:36:39:882","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ContractsService/GetForPlay2\u001b[24m"}
+{"timestamp":"13:36:39:903","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ChallengesService/GetActiveChallengesAndProgression\u001b[24m"}
+{"timestamp":"13:36:39:903","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/HubPagesService/GetChallengeTreeFor\u001b[24m"}
+{"timestamp":"13:36:39:904","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:36:39:987","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:36:47:652","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:36:52:167","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:36:52:168","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:36:52:355","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:36:52:358","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:36:52:361","category":"none","level":"Debug","message":"Setpiece: 83102102-7b94-4668-9e99-0766239017ed"}
+{"timestamp":"13:36:52:375","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:52:375","category":"none","level":"Warn","message":"Unhandled URL: /resources-8-13/?sv=2018-03-28&ver=h3"}
+{"timestamp":"13:36:52:388","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:36:52:392","category":"none","level":"Debug","message":"Ambient switched to 1"}
+{"timestamp":"13:36:52:440","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:36:52:448","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/ResolveProfiles\u001b[24m"}
+{"timestamp":"13:36:52:454","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ProfileService/UpdateUserSaveFileTable\u001b[24m"}
+{"timestamp":"13:36:52:455","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/save.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:52:455","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/load.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:52:456","category":"none","level":"Warn","message":"Unable to save session 95863978885500-0ab9f43d-317e-41d3-8712-0e32a76300be because the session does not exist in the server's memory."}
+{"timestamp":"13:36:52:459","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/restart.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:52:464","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/replan.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:52:554","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/elements/settings/data/isnonvroptionvisible.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:36:54:286","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:36:54:292","category":"none","level":"Debug","message":"Mission started at: 2.098059"}
+{"timestamp":"13:36:57:669","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:07:691","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/GamePersistentDataService/SaveData\u001b[24m"}
+{"timestamp":"13:37:07:692","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:07:739","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Planning?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&resetescalation=false&forcecurrentcontract=true&errorhandling=false\u001b[24m"}
+{"timestamp":"13:37:07:740","category":"none","level":"Debug","message":"Looking up details for contract - Location:LOCATION_ELEGANT_LLAMA (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:37:07:923","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/planning/actions/actions_contextbutton_play.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:37:12:162","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=3&slotname=disguise3&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:37:17:649","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/unlockables_override/47_outfits_butcher.jpg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:37:17:650","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/unlockables_override/47_outfits_legacy47.jpg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:37:17:713","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:23:779","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/unlockables/outfit_ef223b60-b53a-4c7b-b914-13c3310fc61a_0.jpg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:37:27:734","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:37:747","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:40:136","category":"none","level":"Debug","message":"[Image loading] Err Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443 Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443\n    at Vc.from (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:36490)\n    at A.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:58364)\n    at A.emit (node:events:513:28)\n    at d.<computed> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:21:489475)\n    at ClientRequest.emit (node:events:513:28)\n    at TLSSocket.socketErrorListener (node:_http_client:502:9)\n    at TLSSocket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+{"timestamp":"13:37:40:137","category":"none","level":"Debug","message":"[Image loading] Err Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443 Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443\n    at Vc.from (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:36490)\n    at A.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:58364)\n    at A.emit (node:events:513:28)\n    at d.<computed> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:21:489475)\n    at ClientRequest.emit (node:events:513:28)\n    at TLSSocket.socketErrorListener (node:_http_client:502:9)\n    at TLSSocket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+{"timestamp":"13:37:42:572","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/unlockables/outfit_ef223b60-b53a-4c7b-b914-13c3310fc61a_0.jpg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:37:44:836","category":"none","level":"Debug","message":"[Image loading] Err Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443 Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443\n    at Vc.from (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:36490)\n    at A.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:58364)\n    at A.emit (node:events:513:28)\n    at d.<computed> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:21:489475)\n    at ClientRequest.emit (node:events:513:28)\n    at TLSSocket.socketErrorListener (node:_http_client:502:9)\n    at TLSSocket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+{"timestamp":"13:37:47:749","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:53:257","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:37:57:353","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=3&slotname=disguise3&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:37:57:565","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/images/unlockables/outfit_ef223b60-b53a-4c7b-b914-13c3310fc61a_0.jpg?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:37:57:763","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:37:59:692","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:38:02:796","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/SelectAgencyPickup?contractId=d42f850f-ca55-4fc9-9766-8c6a2b5c3129\u001b[24m"}
+{"timestamp":"13:38:02:797","category":"none","level":"Debug","message":"Looking up details for contract - Id:d42f850f-ca55-4fc9-9766-8c6a2b5c3129 (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:38:03:628","category":"none","level":"Debug","message":"[Image loading] Err Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443 Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443\n    at Vc.from (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:36490)\n    at A.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:58364)\n    at A.emit (node:events:513:28)\n    at d.<computed> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:21:489475)\n    at ClientRequest.emit (node:events:513:28)\n    at TLSSocket.socketErrorListener (node:_http_client:502:9)\n    at TLSSocket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+{"timestamp":"13:38:07:770","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:38:08:348","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/SelectEntrance?contractId=d42f850f-ca55-4fc9-9766-8c6a2b5c3129\u001b[24m"}
+{"timestamp":"13:38:08:350","category":"none","level":"Debug","message":"Looking up details for contract - Id:d42f850f-ca55-4fc9-9766-8c6a2b5c3129 (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:38:17:070","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/SelectEntrance?contractId=d42f850f-ca55-4fc9-9766-8c6a2b5c3129\u001b[24m"}
+{"timestamp":"13:38:17:071","category":"none","level":"Debug","message":"Looking up details for contract - Id:d42f850f-ca55-4fc9-9766-8c6a2b5c3129 (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:38:17:782","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:38:18:612","category":"none","level":"Debug","message":"[Image loading] Err Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443 Error: connect ETIMEDOUT 2606:4700:3108::ac42:2afc:443\n    at Vc.from (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:36490)\n    at A.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:67:58364)\n    at A.emit (node:events:513:28)\n    at d.<computed> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:21:489475)\n    at ClientRequest.emit (node:events:513:28)\n    at TLSSocket.socketErrorListener (node:_http_client:502:9)\n    at TLSSocket.emit (node:events:513:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"}
+{"timestamp":"13:38:26:604","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=4&slotname=gear4&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:38:27:795","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:38:31:768","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:38:33:687","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=bb43dda8-8dfe-463a-afc4-f20adfd47a8c&slotname=PROP_CONTAINER_SUITCASE_ICA_STAbb43dda8-8dfe-463a-afc4-f20adfd47a8c&stashpoint=&allowlargeitems=true&allowcontainers=false\u001b[24m"}
+{"timestamp":"13:38:37:806","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:38:47:813","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:38:55:550","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=4&slotname=gear4&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:38:57:822","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:39:01:389","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:39:05:864","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/SelectEntrance?contractId=d42f850f-ca55-4fc9-9766-8c6a2b5c3129\u001b[24m"}
+{"timestamp":"13:39:05:866","category":"none","level":"Debug","message":"Looking up details for contract - Id:d42f850f-ca55-4fc9-9766-8c6a2b5c3129 (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:39:07:840","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:39:08:621","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/SelectEntrance?contractId=d42f850f-ca55-4fc9-9766-8c6a2b5c3129\u001b[24m"}
+{"timestamp":"13:39:08:622","category":"none","level":"Debug","message":"Looking up details for contract - Id:d42f850f-ca55-4fc9-9766-8c6a2b5c3129 (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:39:09:936","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/SelectEntrance?contractId=d42f850f-ca55-4fc9-9766-8c6a2b5c3129\u001b[24m"}
+{"timestamp":"13:39:09:937","category":"none","level":"Debug","message":"Looking up details for contract - Id:d42f850f-ca55-4fc9-9766-8c6a2b5c3129 (assembly:/_pro/scenes/missions/elegant/scene_llama.entity)"}
+{"timestamp":"13:39:15:181","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/profiles/page/Stashpoint?contractid=d42f850f-ca55-4fc9-9766-8c6a2b5c3129&slotid=2&slotname=concealedweapon2&stashpoint=&allowlargeitems=true&allowcontainers=true\u001b[24m"}
+{"timestamp":"13:39:17:847","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:39:19:756","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/DefaultLoadoutService/Set\u001b[24m"}
+{"timestamp":"13:39:19:757","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ContractsService/GetForPlay2\u001b[24m"}
+{"timestamp":"13:39:19:792","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/ChallengesService/GetActiveChallengesAndProgression\u001b[24m"}
+{"timestamp":"13:39:19:793","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/HubPagesService/GetChallengeTreeFor\u001b[24m"}
+{"timestamp":"13:39:19:794","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:39:19:898","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:39:25:827","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:25:828","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:39:26:074","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:39:26:076","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:26:079","category":"none","level":"Debug","message":"Ambient switched to 1"}
+{"timestamp":"13:39:26:088","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:39:26:089","category":"none","level":"Warn","message":"Unhandled URL: /resources-8-13/?sv=2018-03-28&ver=h3"}
+{"timestamp":"13:39:26:106","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:26:108","category":"none","level":"Debug","message":"Setpiece: 83102102-7b94-4668-9e99-0766239017ed"}
+{"timestamp":"13:39:26:162","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:26:170","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/save.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:39:26:172","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/load.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:39:26:175","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/restart.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:39:26:180","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/pages/pause/pausemenu/replan.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:39:26:310","category":"http","level":"Info","message":"\u001b[32mGET\u001b[39m \u001b[4m/resources-8-13/menusystem/elements/settings/data/isnonvroptionvisible.json?sv=2018-03-28&ver=h3\u001b[24m"}
+{"timestamp":"13:39:27:852","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:39:28:213","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:28:218","category":"none","level":"Debug","message":"Mission started at: 2.311456"}
+{"timestamp":"13:39:37:864","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:39:43:140","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:43:143","category":"none","level":"Info","message":"Picked up item with repository ID: 5cc4d1ea-b4fa-4667-ba3a-b6e859f03059"}
+{"timestamp":"13:39:44:160","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:44:248","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:44:250","category":"none","level":"Debug","message":"Ambient switched to 4"}
+{"timestamp":"13:39:44:533","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:47:874","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:39:50:105","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:39:50:109","category":"none","level":"Debug","message":"Ambient switched to 1"}
+{"timestamp":"13:39:57:870","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:40:04:362","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:04:363","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/api/metrics/add\u001b[24m"}
+{"timestamp":"13:40:07:885","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:40:13:582","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:13:585","category":"none","level":"Info","message":"Picked up item with repository ID: 004ecac9-6aee-4b30-a073-4399a94535d8"}
+{"timestamp":"13:40:17:895","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:40:21:975","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:22:939","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:23:042","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:23:045","category":"none","level":"Debug","message":"Ambient switched to 4"}
+{"timestamp":"13:40:27:918","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:40:29:350","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:29:354","category":"none","level":"Info","message":"Picked up item with repository ID: 97152c6c-4410-45ab-9e27-50150ce05f9b"}
+{"timestamp":"13:40:37:937","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:40:38:900","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:39:432","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:45:388","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:45:390","category":"none","level":"Debug","message":"Ambient switched to 1"}
+{"timestamp":"13:40:46:254","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:47:948","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:40:49:411","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:49:413","category":"none","level":"Info","message":"Picked up item with repository ID: 97152c6c-4410-45ab-9e27-50150ce05f9b"}
+{"timestamp":"13:40:52:753","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:55:553","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:40:57:957","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:41:03:804","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:41:04:652","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:41:04:734","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:41:04:737","category":"none","level":"Debug","message":"Ambient switched to 4"}
+{"timestamp":"13:41:07:986","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:41:08:490","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:41:08:492","category":"none","level":"Info","message":"Picked up item with repository ID: 97152c6c-4410-45ab-9e27-50150ce05f9b"}
+{"timestamp":"13:41:14:653","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:41:15:485","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveEvents2\u001b[24m"}
+{"timestamp":"13:41:18:010","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:41:28:029","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:41:38:035","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:41:48:055","category":"http","level":"Info","message":"\u001b[32mPOST\u001b[39m \u001b[4m/authentication/api/userchannel/EventsService/SaveAndSynchronizeEvents4\u001b[24m"}
+{"timestamp":"13:41:58:635","category":"none","level":"Error","message":"kill ENOSYS"}
+{"timestamp":"13:41:58:636","category":"none","level":"Error","message":"Error: kill ENOSYS\n    at process.kill (node:internal/process/per_thread:233:13)\n    at Object.exit (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:68:6331699)\n    at process.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:68:6331856)\n    at Object.onceWrapper (node:events:628:26)\n    at process.emit (node:events:513:28)"}

@@ -1,0 +1,28 @@
+{"timestamp":"14:08:23:921","category":"none","level":"Debug","message":"Loaded flags."}
+{"timestamp":"14:08:23:983","category":"none","level":"Info","message":"This is Peacock v6.5.1 (rev 6510), with Node v18.15.0."}
+{"timestamp":"14:08:23:985","category":"none","level":"Debug","message":"Creating missing directory contractSessions"}
+{"timestamp":"14:08:23:986","category":"none","level":"Debug","message":"Creating missing directory plugins"}
+{"timestamp":"14:08:23:987","category":"none","level":"Debug","message":"Creating missing directory userdata"}
+{"timestamp":"14:08:23:988","category":"none","level":"Debug","message":"Creating missing directory contracts"}
+{"timestamp":"14:08:23:988","category":"none","level":"Debug","message":"Creating missing directory userdata\\epicids"}
+{"timestamp":"14:08:23:989","category":"none","level":"Debug","message":"Creating missing directory userdata\\steamids"}
+{"timestamp":"14:08:23:990","category":"none","level":"Debug","message":"Creating missing directory userdata\\users"}
+{"timestamp":"14:08:23:991","category":"none","level":"Debug","message":"Creating missing directory userdata\\h1\\steamids"}
+{"timestamp":"14:08:23:991","category":"none","level":"Debug","message":"Creating missing directory userdata\\h1\\epicids"}
+{"timestamp":"14:08:23:992","category":"none","level":"Debug","message":"Creating missing directory userdata\\h1\\users"}
+{"timestamp":"14:08:23:993","category":"none","level":"Debug","message":"Creating missing directory userdata\\h2\\steamids"}
+{"timestamp":"14:08:23:994","category":"none","level":"Debug","message":"Creating missing directory userdata\\h2\\users"}
+{"timestamp":"14:08:23:994","category":"none","level":"Debug","message":"Creating missing directory userdata\\scpc\\users"}
+{"timestamp":"14:08:23:995","category":"none","level":"Debug","message":"Creating missing directory userdata\\scpc\\steamids"}
+{"timestamp":"14:08:23:995","category":"none","level":"Debug","message":"Creating missing directory images\\actors"}
+{"timestamp":"14:08:23:996","category":"none","level":"Debug","message":"Creating missing directory images\\contracts"}
+{"timestamp":"14:08:23:997","category":"none","level":"Debug","message":"Creating missing directory images\\contracts\\elusive"}
+{"timestamp":"14:08:23:997","category":"none","level":"Debug","message":"Creating missing directory images\\contracts\\escalation"}
+{"timestamp":"14:08:23:998","category":"none","level":"Debug","message":"Creating missing directory images\\contracts\\featured"}
+{"timestamp":"14:08:23:998","category":"none","level":"Debug","message":"Creating missing directory images\\unlockables_override"}
+{"timestamp":"14:08:24:000","category":"none","level":"Info","message":"Booting Peacock internal services - this may take a moment."}
+{"timestamp":"14:08:24:003","category":"none","level":"Info","message":"Server started."}
+{"timestamp":"14:08:24:156","category":"none","level":"Debug","message":"Discovered 160 escalation groups."}
+{"timestamp":"14:08:25:123","category":"none","level":"Warn","message":"Peacock is out-of-date! Check the Discord for the latest release."}
+{"timestamp":"14:08:27:613","category":"none","level":"Error","message":"kill ENOSYS"}
+{"timestamp":"14:08:27:614","category":"none","level":"Error","message":"Error: kill ENOSYS\n    at process.kill (node:internal/process/per_thread:233:13)\n    at Object.exit (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:68:6331699)\n    at process.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:68:6331856)\n    at Object.onceWrapper (node:events:628:26)\n    at process.emit (node:events:513:28)"}

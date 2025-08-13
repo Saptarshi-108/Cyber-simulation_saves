@@ -1,0 +1,7 @@
+{"timestamp":"00:10:02:007","category":"none","level":"Debug","message":"Loaded flags."}
+{"timestamp":"00:10:02:070","category":"none","level":"Info","message":"This is Peacock v6.5.1 (rev 6510), with Node v18.15.0."}
+{"timestamp":"00:10:02:072","category":"none","level":"Info","message":"Booting Peacock internal services - this may take a moment."}
+{"timestamp":"00:10:02:074","category":"none","level":"Info","message":"Server started."}
+{"timestamp":"00:10:02:189","category":"none","level":"Debug","message":"Discovered 160 escalation groups."}
+{"timestamp":"00:10:04:261","category":"none","level":"Error","message":"kill ENOSYS"}
+{"timestamp":"00:10:04:261","category":"none","level":"Error","message":"Error: kill ENOSYS\n    at process.kill (node:internal/process/per_thread:233:13)\n    at Object.exit (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:68:6331699)\n    at process.<anonymous> (D:\\Games\\HITMAN - World of Assassination\\Peacock\\chunk0.js:68:6331856)\n    at Object.onceWrapper (node:events:628:26)\n    at process.emit (node:events:513:28)"}
