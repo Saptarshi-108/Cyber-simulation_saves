@@ -1,0 +1,23 @@
+Renderer Device Information:
+	NVIDIA GeForce MX450
+	nvldumd.dll
+	RenderPath         		: BSSM_SV_3_0
+	PSversion          		: 300
+	VSversion          		: 300
+	VStarget           		: vs_3_0
+	PStarget           		: ps_3_0
+	PS2xtarget         		: ps_3_0
+	maxPS20inst        		: 512
+	3.0 Support        		: yes
+	3.0 Lighting       		: yes
+	Nonpowerof2textures		: yes
+	FP16ARGB blending  		: yes
+	FP16ARGB filtering 		: no
+	Bloom lighting     		: no
+	Refraction         		: yes
+	2.0 hairw           		: yes
+	SLI mode           		: no
+	NVapi enabled      		: yes
+	Multisample Type   		: 4
+	Transparency MS    		: no
+	HW Thread Count    		: 4
